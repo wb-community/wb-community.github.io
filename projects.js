@@ -34,13 +34,13 @@ const projects = [
     },
     {
         id: 5,
-        name: "WB Stats Bot",
-        creator: "DarkPassenger",
+        name: "WBStats Bot",
+        creator: "DeViL!-",
         category: "WB Discord Bots",
         shortDescription: "A feature-rich Discord bot for War Brokers stats including player lookups, squad stats, and daily snapshot tracking.",
-        details: "A Discord bot by DarkPassenger that extends beyond SquadBot's capabilities. Features include player stat lookups, squad statistics (powered by SquadLink API for squad info), and daily snapshot tracking to show stat progression over time. One of the more comprehensive WB Discord bots available.",
+        details: "A Discord bot by DeViL!- that extends beyond SquadBot's capabilities. Features include player stat lookups, squad statistics (powered by SquadLink API for squad info), and daily snapshot tracking to show stat progression over time. One of the more comprehensive WB Discord bots available.",
         image: "images/wbstatsbot.jpg",
-        link: null,
+        link: https://discord.com/oauth2/authorize?client_id=1166970401646190653,
         status: "Active"
     },
     {
