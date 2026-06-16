@@ -7,7 +7,7 @@ A central directory of community-made tools, APIs, stats sites, and utilities fo
 Projects in this directory are grouped into specific categories to help users find exactly what they need:
 
 - **WB Stats Sites**: Independent sites offering player stats, leaderboards, and rankings (e.g. original stats site, POMP's ELO site, Did You Get Sniped?).
-- **WB Discord Bots**: Bots designed to improve the Discord experience with game data lookups and integration (e.g. SquadBot, SquadLink Bot, msfish).
+- **WB Discord Bots**: Bots designed to improve the Discord experience with game data lookups and integration (e.g. SquadBot, SquadLink Bot, WBStats).
 - **WB APIs & Endpoints**: Fundamental data services and libraries for developers (e.g. WB API, SquadLink API, WB Types).
 - **WB Mods**: Modifications and browser extensions extending the base game experience (e.g. WBM).
 - **WB Tools & Utilities**: Miscellaneous helpful tools for data processing, localization, and analytics (e.g. WB Utilities, wbdb, Localization tracker).
