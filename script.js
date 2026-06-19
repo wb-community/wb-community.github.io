@@ -2,6 +2,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('searchInput');
     const projectsGrid = document.getElementById('projectsGrid');
     const filterInfo = document.getElementById('filterInfo');
+    const themeToggle = document.getElementById('themeToggle');
+
+    // Theme logic
+    const currentTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    
+    if (currentTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+
+    themeToggle.addEventListener('click', () => {
+        let theme = document.documentElement.getAttribute('data-theme');
+        if (theme === 'dark') {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.setItem('theme', 'light');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+        }
+    });
 
     function renderProjects(filteredProjects) {
         projectsGrid.innerHTML = '';
@@ -38,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const categoryColor = getCategoryColor(category);
         const header = document.createElement('div');
         header.className = 'category-header';
-        header.style.background = `linear-gradient(135deg, ${categoryColor}, ${adjustBrightness(categoryColor, 20)})`;
+        header.style.background = categoryColor;
         
         const title = document.createElement('h2');
         title.className = 'category-title';
@@ -115,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ${imageElement}
             <div class="project-header">
                 <h3 class="project-title">${escapeHtml(project.name)}</h3>
-                <span class="project-category" style="background: linear-gradient(135deg, ${categoryColor}, ${adjustBrightness(categoryColor, 20)});">${escapeHtml(project.category)}</span>
+                <span class="project-category" style="background-color: ${categoryColor};">${escapeHtml(project.category)}</span>
             </div>
             <div class="project-meta">
                 <span class="project-status ${statusClass}">${escapeHtml(project.status)}</span>
