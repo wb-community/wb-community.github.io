@@ -55,25 +55,31 @@ document.addEventListener('DOMContentLoaded', function() {
         section.className = 'category-section';
         
         const categoryColor = getCategoryColor(category);
+        section.style.setProperty('--category-color', categoryColor);
+
         const header = document.createElement('div');
         header.className = 'category-header';
-        header.style.background = categoryColor;
         
         const title = document.createElement('h2');
         title.className = 'category-title';
         title.textContent = category;
+
+        const count = document.createElement('span');
+        count.className = 'category-count';
+        count.textContent = `${projects.length} ${projects.length === 1 ? 'entry' : 'entries'}`;
         
         const toggle = document.createElement('div');
         toggle.className = 'category-toggle';
         toggle.textContent = '−';
         
         header.appendChild(title);
+        header.appendChild(count);
         header.appendChild(toggle);
         
         const projectsContainer = document.createElement('div');
         projectsContainer.className = 'category-projects visible';
         
-        projects.forEach(project => {
+        sortProjectsByStatus(projects).forEach(project => {
             const card = createProjectCard(project);
             projectsContainer.appendChild(card);
         });
@@ -91,14 +97,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function getCategoryColor(category) {
         const colors = {
-            'WB Stats Sites': '#ff6b9d',
-            'WB Discord Bots': '#6366f1',
-            'WB APIs & Endpoints': '#10b981',
-            'WB Mods': '#f59e0b',
-            'WB Tools & Utilities': '#8b5cf6',
-            'WB Community Sites': '#06b6d4'
+            'WB Stats Sites': '#c9482f',
+            'WB Discord Bots': '#4f7f90',
+            'WB APIs & Endpoints': '#5d7a36',
+            'WB Mods': '#d59b2d',
+            'WB Tools & Utilities': '#8a5a2b',
+            'WB Community Sites': '#b5526c'
         };
-        return colors[category] || '#3b82f6';
+        return colors[category] || '#566c7a';
+    }
+
+    function sortProjectsByStatus(projects) {
+        const statusOrder = {
+            active: 0,
+            maintenance: 1,
+            removed: 2
+        };
+
+        return [...projects].sort((a, b) => {
+            const aRank = statusOrder[a.status.toLowerCase()] ?? 99;
+            const bRank = statusOrder[b.status.toLowerCase()] ?? 99;
+
+            if (aRank !== bRank) {
+                return aRank - bRank;
+            }
+
+            return a.name.localeCompare(b.name);
+        });
     }
 
     function createProjectCard(project) {
@@ -108,15 +133,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const statusClass = `status-${project.status.toLowerCase()}`;
         const categoryColor = getCategoryColor(project.category);
+        card.style.setProperty('--category-color', categoryColor);
         
-        const isGitHubCard = project.image && project.image.includes('github-readme-stats');
-        const imageClass = isGitHubCard ? 'project-image github-card' : 'project-image';
+        const githubMeta = getGitHubMeta(project);
         
         let imageElement;
-        if (!project.image) {
+        if (githubMeta) {
+            imageElement = `
+                <div class="project-image github-card" aria-label="${escapeHtml(githubMeta.label)}">
+                    <div class="github-preview">
+                        <svg class="github-mark" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                            <path d="M8 .2a8 8 0 0 0-2.5 15.6c.4.1.5-.2.5-.4v-1.4c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.1-.9-1.1-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.8.8 2.3.6.1-.5.3-.8.5-1-1.8-.2-3.6-.9-3.6-3.9 0-.9.3-1.6.8-2.2-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8A7.7 7.7 0 0 1 8 3.7c.7 0 1.3.1 2 .3 1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.2 0 3-1.8 3.7-3.6 3.9.3.3.5.7.5 1.5v2.4c0 .2.1.5.5.4A8 8 0 0 0 8 .2Z"></path>
+                        </svg>
+                        <div>
+                            <span class="github-label">GitHub repository</span>
+                            <strong>${escapeHtml(project.name)}</strong>
+                            <span>${escapeHtml(githubMeta.repoPath)}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        } else if (!project.image) {
             imageElement = `<div class="project-image placeholder-box"><span class="image-placeholder">[ IMAGE PLACEHOLDER ]</span></div>`;
         } else {
-            imageElement = `<div class="${imageClass}"><img src="${project.image}" alt="${project.name}" loading="lazy" /></div>`;
+            imageElement = `<div class="project-image"><img src="${project.image}" alt="${project.name}" loading="lazy" /></div>`;
         }
         
         let urlHost = '';
@@ -134,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ${imageElement}
             <div class="project-header">
                 <h3 class="project-title">${escapeHtml(project.name)}</h3>
-                <span class="project-category" style="background-color: ${categoryColor};">${escapeHtml(project.category)}</span>
+                <span class="project-category">${escapeHtml(project.category)}</span>
             </div>
             <div class="project-meta">
                 <span class="project-status ${statusClass}">${escapeHtml(project.status)}</span>
@@ -159,6 +199,39 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         return card;
+    }
+
+    function getGitHubMeta(project) {
+        let repoPath = '';
+
+        try {
+            if (project.link) {
+                const linkUrl = new URL(project.link);
+                if (linkUrl.hostname === 'github.com' || linkUrl.hostname.endsWith('.github.com')) {
+                    repoPath = linkUrl.pathname.replace(/^\/+/, '').split('/').slice(0, 2).join('/');
+                }
+            }
+
+            if (!repoPath && project.image && project.image.includes('github-readme-stats')) {
+                const imageUrl = new URL(project.image);
+                const owner = imageUrl.searchParams.get('username');
+                const repo = imageUrl.searchParams.get('repo');
+                if (owner && repo) {
+                    repoPath = `${owner}/${repo}`;
+                }
+            }
+        } catch (e) {
+            repoPath = '';
+        }
+
+        if (!repoPath) {
+            return null;
+        }
+
+        return {
+            repoPath,
+            label: `GitHub repository preview for ${project.name}`
+        };
     }
 
     function filterProjects(query) {
