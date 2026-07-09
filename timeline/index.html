@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <title>Timeline - WB Community Hub</title>
+    <link rel="icon" type="image/webp" href="images/warbrokers.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-bg"></div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" type="button">
+        Theme
+    </button>
+
+    <header class="header page-header">
+        <div class="header-content">
+            <img class="hub-mark" src="images/warbrokers.webp" alt="" aria-hidden="true">
+            <p class="kicker">War Brokers history archive</p>
+            <h1 class="title">Timeline</h1>
+            <p class="subtitle">Track War Brokers updates, events, map and weapon releases, and community projects across the game's history.</p>
+        </div>
+    </header>
+
+    <main class="container timeline-page">
+        <nav class="page-nav" aria-label="Site sections">
+            <a href="./" class="page-nav-link">Home</a>
+            <a href="projects/" class="page-nav-link">Projects</a>
+            <span class="page-nav-link disabled">Community</span>
+            <a href="timeline/" class="page-nav-link active" aria-current="page">Timeline</a>
+        </nav>
+
+        <section class="timeline-console" aria-label="Timeline controls">
+            <div class="timeline-console-main">
+                <p class="section-kicker">Archive controls</p>
+                <h2>Scan by era, jump by year, expand what matters.</h2>
+                <p>The timeline keeps everything visible without forcing every patch note to compete for attention. High-priority updates, events, and community projects stand out first.</p>
+            </div>
+
+            <div class="timeline-stats" id="timelineStats" aria-label="Timeline totals">
+                <div><strong>--</strong><span>Entries</span></div>
+                <div><strong>--</strong><span>High Priority</span></div>
+                <div><strong>--</strong><span>Years</span></div>
+            </div>
+        </section>
+
+        <section class="timeline-tools" aria-label="Timeline filters">
+            <input
+                type="text"
+                id="timelineSearch"
+                class="timeline-search"
+                placeholder="Search timeline..."
+                aria-label="Search timeline"
+            >
+
+            <div class="timeline-filter-row" role="group" aria-label="Filter timeline entries">
+                <button type="button" class="timeline-filter active" data-filter="all">All</button>
+                <button type="button" class="timeline-filter" data-filter="high">Priority</button>
+                <button type="button" class="timeline-filter" data-filter="version_update">Updates</button>
+                <button type="button" class="timeline-filter" data-filter="event">Events</button>
+                <button type="button" class="timeline-filter" data-filter="community_project">Projects</button>
+                <button type="button" class="timeline-filter" data-filter="map">Map Releases</button>
+                <button type="button" class="timeline-filter" data-filter="weapon">Gun Releases</button>
+            </div>
+        </section>
+
+        <section class="timeline-latest" aria-labelledby="latest-title">
+            <div class="timeline-section-heading">
+                <p class="section-kicker">Latest signal</p>
+                <h2 id="latest-title">Recent highlights</h2>
+            </div>
+            <div class="timeline-highlight-grid" id="timelineHighlights"></div>
+        </section>
+
+        <section class="timeline-layout" aria-label="Timeline archive">
+            <aside class="timeline-year-panel" aria-label="Jump to year">
+                <div class="timeline-year-title">Years</div>
+                <div class="timeline-year-list" id="timelineYears"></div>
+            </aside>
+
+            <div class="timeline-stream" id="timelineStream" aria-live="polite">
+                <div class="timeline-loading">Loading timeline data...</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>The Timeline section is built from Discord changelog exports, community project history, and the War Brokers Wiki Updates page. Some entries still need manual image review, especially map and weapon releases where local assets may be added later.</p>
+            <p class="footer-meta">WB Community Timeline - Updates, events, projects, and game history</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="timeline.js"></script>
+</body>
+</html>
