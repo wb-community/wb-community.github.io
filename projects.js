@@ -6,7 +6,7 @@ const projects = [
         category: "WB Stats Sites",
         shortDescription: "The original community stats site for War Brokers — daily and all-time leaderboards, player profiles, ribbons, medals, and squad pages.",
         details: "Built by Rocky with collaboration from the War Brokers devs. Features daily top 30 rankings by kills, vehicle kills, and longest kills, plus lifetime top 10 stats, squad rankings, and player profiles with customizable themes. The site queries the WB game database directly, but its backend schema is frozen at the weapon list from when Rocky left — newer weapons added to the game are not reflected. Still live and usable for older stats.",
-        image: "images/stats.warbrokers.io.jpg",
+        image: "images/project_images/stats.warbrokers.io.jpg",
         link: "https://stats.warbrokers.io/",
         status: "Maintenance"
     },
@@ -17,7 +17,7 @@ const projects = [
         category: "WB Stats Sites",
         shortDescription: "An improved community stats site with ELO rankings, global leaderboards, and a modern interface — left in alpha state.",
         details: "Built by POMP as part of the War Brokers Projects monorepo, intended as a full replacement for the original stats site. Features Kills ELO, Games ELO, and XP/Level leaderboards. Development was halted mid-way and the project has been in an incomplete alpha state for several years. Data is sourced from WBAPI.",
-        image: "images/stats.wbpjs.com.jpg",
+        image: "images/project_images/stats.wbpjs.com.jpg",
         link: "https://stats.wbpjs.com/",
         status: "Maintenance"
     },
@@ -39,7 +39,7 @@ const projects = [
         category: "WB Discord Bots",
         shortDescription: "A feature-rich Discord bot for War Brokers stats including player lookups, squad stats, and daily snapshot tracking.",
         details: "A Discord bot by DeViL!- that extends beyond SquadBot's capabilities. Features include player stat lookups, squad statistics (powered by SquadLink API for squad info), and daily snapshot tracking to show stat progression over time. One of the more comprehensive WB Discord bots available.",
-        image: "images/wbstatsbot.jpg",
+        image: "images/project_images/wbstatsbot.jpg",
         link: null,
         status: "Active"
     },
@@ -50,7 +50,7 @@ const projects = [
         category: "WB Discord Bots",
         shortDescription: "A Discord bot by Projelly showing rich squad information with interactive UI and graphs, powered by SquadLink API.",
         details: "A Discord bot created by Projelly that surfaces all squad-related data from the SquadLink API. Features a rich interactive UI and embeds, including interactive graphs. Pairs with the SquadLink Graphs web page (squadlink-dev.github.io/squadlink-graphs) which renders interactive player and squad graphs in the browser using data from ZorkaA's playerdb.csv dataset.",
-        image: "images/squadlinkbot.jpg",
+        image: "images/project_images/squadlinkbot.jpg",
         link: null,
         status: "Active"
     },
@@ -61,7 +61,7 @@ const projects = [
         category: "WB Discord Bots",
         shortDescription: "Discord bot connecting players to War Brokers stats with slash commands for player stats, squad info, and K/D tracking.",
         details: "A Discord bot serving as a quick bridge between Discord and War Brokers. Commands include player stat lookups, K/D ratio progress, squad statistics, and a topic generator. Uses slash commands for easy access to player information directly within Discord. Pulls data from the War Brokers stats ecosystem.",
-        image: "images/squadbot.jpg",
+        image: "images/project_images/squadbot.jpg",
         link: "https://top.gg/bot/725779812412817429",
         status: "Maintenance"
     },
@@ -83,7 +83,7 @@ const projects = [
         category: "WB Discord Bots",
         shortDescription: "The official [APG] squad Discord bot with reaction roles, purge commands, and APG-related content.",
         details: "A squad-specific Discord bot built for the [APG] War Brokers community. Includes reaction roles, a purge command, APG-related images, and general server management features. Not a general-purpose WB stats bot — primarily useful within the [APG] Discord. Listed on Top.gg but appears inactive.",
-        image: "images/apg_bot.jpg",
+        image: "images/project_images/apg_bot.jpg",
         link: "https://top.gg/bot/933820741915385906",
         status: "Removed"
     },
@@ -94,7 +94,7 @@ const projects = [
         category: "WB APIs & Endpoints",
         shortDescription: "The most accurate public API for War Brokers data — player stats, ELO rankings, squad members, and server status.",
         details: "Created by POMP and hosted on his own server in Seoul, South Korea. Acts as a database mirror and API proxy for the WB game database, backed by a PostgreSQL instance on Supabase (AWS, California). Exposes endpoints for player lookup by UID or name, ELO percentile rankings, squad member lists, server status, and player counts. Full source code is available in the War Brokers Projects monorepo. Currently in maintenance-only mode — no new features, but kept running.",
-        image: "images/wbapi.wbpjs.com.jpg",
+        image: "images/project_images/wbapi.wbpjs.com.jpg",
         link: "https://wbapi.wbpjs.com/api-docs/#/",
         status: "Maintenance"
     },
@@ -138,7 +138,7 @@ const projects = [
         category: "WB Community Sites",
         shortDescription: "Comprehensive community encyclopedia covering maps, weapons, vehicles, game modes, items, and strategy guides.",
         details: "Player-maintained wiki on Fandom with extensive documentation of all game content. Includes beginner guides, weapon statistics, map information, vehicle details, cosmetics catalog, mission guides, advanced strategy articles, and a full history of game events. The most thorough written reference for War Brokers.",
-        image: "images/war-brokers.fandom.com.jpg",
+        image: "images/project_images/war-brokers.fandom.com.jpg",
         link: "https://war-brokers.fandom.com/wiki/War_Brokers_Wiki",
         status: "Active"
     },
@@ -149,7 +149,7 @@ const projects = [
         category: "WB Community Sites",
         shortDescription: "Community-driven resource for troubleshooting bugs, crashes, and performance optimization for War Brokers on PC.",
         details: "The PCGamingWiki page for War Brokers documents known bugs, workarounds, graphics settings, keybindings, and performance tweaks. Useful for players running the Steam version or experiencing technical issues with the browser version.",
-        image: "images/pcgamingwiki.com.jpg",
+        image: "images/project_images/pcgamingwiki.com.jpg",
         link: "https://www.pcgamingwiki.com/wiki/War_Brokers",
         status: "Maintenance"
     },
@@ -171,7 +171,7 @@ const projects = [
         category: "WB Stats Sites",
         shortDescription: "A lightweight player stat lookup tool with ELO rankings and a direct link to the player's full stats page.",
         details: "A simple single-page stat lookup tool built by [APG] Did You Get Sniped?. Allows players to search by name or UID and get a quick overview of their stats and ELO, with a direct link to their full stats.warbrokers.io profile. Credits POMP's WBAPI and EpicEfeathers.",
-        image: "images/didyougetsniped.github.io.jpg",
+        image: "images/project_images/didyougetsniped.github.io.jpg",
         link: "https://didyougetsniped.github.io/wbinfo",
         status: "Active"
     },
@@ -182,7 +182,7 @@ const projects = [
         category: "WB Tools & Utilities",
         shortDescription: "A collection of analytical and visualization tools for War Brokers — player count graphs, squad stats, item viewer, matchmaking demos, and more.",
         details: "A GitHub Pages site by ZorkaA hosting multiple WB utility tools: an online player count visualization, time-series squad player count tracking, an in-game item viewer, last-seen tracker for squad members, general squad stats viewer, and a Monte Carlo matchmaking balancing demo. Several tools are still WIP including historical analytics and predictive stats modeling. Pulls data from POMP's WBAPI.",
-        image: "images/zorkaa.github.io.jpg",
+        image: "images/project_images/zorkaa.github.io.jpg",
         link: "https://zorkaa.github.io/wb/",
         status: "Active"
     },
@@ -215,7 +215,7 @@ const projects = [
         category: "WB APIs & Endpoints",
         shortDescription: "A rich squad analytics API that performs weekly data processing across all squads using WBAPI as its data source.",
         details: "Built by Projelly and hosted on Render. Provides rich squad-level information by performing massive data calculations and cleanup on a weekly basis, pulling all underlying data from POMP's WBAPI. Exposes aggregated squad analytics not available directly from WBAPI. Documented via Swagger UI. Powers the WB Stats Bot and SquadLink Bot.",
-        image: "images/squadlinkapi.jpg",
+        image: "images/project_images/squadlinkapi.jpg",
         link: "https://squadlinkapi.onrender.com/docs",
         status: "Active"
     },

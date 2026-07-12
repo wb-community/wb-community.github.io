@@ -18,14 +18,14 @@
       "type": "discord_export",
       "name": "War Brokers #changelog export",
       "messageCount": 293,
-      "fileName": "War Brokers - ╔═ INFORMATION ══════╗ - 📋changelog [403637752962220032].json"
+      "fileName": "War Brokers - \u2554\u2550 INFORMATION \u2550\u2550\u2550\u2550\u2550\u2550\u2557 - \ud83d\udccbchangelog [403637752962220032].json"
     },
     {
       "id": "discord_community_projects_export",
       "type": "discord_export",
       "name": "War Brokers #community-projects export",
       "messageCount": 45,
-      "fileName": "War Brokers - ╔═ INFORMATION ══════╗ - 🌐community-projects [1216689735167381564].json"
+      "fileName": "War Brokers - \u2554\u2550 INFORMATION \u2550\u2550\u2550\u2550\u2550\u2550\u2557 - \ud83c\udf10community-projects [1216689735167381564].json"
     },
     {
       "id": "fandom_updates_page",
@@ -117,9 +117,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v542",
-        "needsManualImage": true
+        "url": "images/map_images/DesertRedux_vote.webp",
+        "alt": "Desert Redux",
+        "needsManualImage": false
       },
       "content": [
         "Happy Summer from Warbrokers.io!!!",
@@ -156,6 +156,13 @@
           "name": "Desert Redux",
           "date": "2026-06-29",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/DesertRedux_vote.webp",
+          "alt": "Desert Redux",
+          "needsManualImage": false
         }
       ]
     },
@@ -797,9 +804,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v511",
-        "needsManualImage": true
+        "url": "images/map_images/GoldMine_vote.webp",
+        "alt": "Gold Mine update",
+        "needsManualImage": false
       },
       "content": [
         "Happy Holidays from War Brokers!",
@@ -865,6 +872,13 @@
           "name": "Butterfly",
           "date": "2024-12-19",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/GoldMine_vote.webp",
+          "alt": "Gold Mine update",
+          "needsManualImage": false
         }
       ]
     },
@@ -1186,9 +1200,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v502",
-        "needsManualImage": true
+        "url": "images/map_images/GoldMine_vote.webp",
+        "alt": "Gold Mine",
+        "needsManualImage": false
       },
       "content": [
         "(Live in about 90 minutes)",
@@ -1230,6 +1244,13 @@
           "name": "G3A3",
           "date": "2024-06-21",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/GoldMine_vote.webp",
+          "alt": "Gold Mine",
+          "needsManualImage": false
         }
       ]
     },
@@ -1752,7 +1773,7 @@
       "id": "update-2023-10-03-war-brokers-update-55360",
       "type": "version_update",
       "title": "War Brokers update",
-      "description": "FYI, there was a bug with the Steam PC build where the executable was missing. This has been fixed. If you have a problem launching the game look for the update in Steam or verify integrity of your files and it will update the build. If the game launches fine there is nothing you need to do. How to verify files: ⚙️ -> Properties -> Installed Files -> Verify this game's files are installed correctly -> Verify...",
+      "description": "FYI, there was a bug with the Steam PC build where the executable was missing. This has been fixed. If you have a problem launching the game look for the update in Steam or verify integrity of your files and it will update the build. If the game launches fine there is nothing you need to do. How to verify files: \u2699\ufe0f -> Properties -> Installed Files -> Verify this game's files are installed correctly -> Verify...",
       "releaseDate": "2023-10-03",
       "datePrecision": "day",
       "priority": "low",
@@ -1768,7 +1789,7 @@
       "content": [
         "FYI, there was a bug with the Steam PC build where the executable was missing. This has been fixed. If you have a problem launching the game look for the update in Steam or verify integrity of your files and it will update the build. If the game launches fine there is nothing you need to do.",
         "How to verify files:",
-        "⚙️ -> Properties -> Installed Files -> Verify this game's files are installed correctly -> Verify integrity of game files"
+        "\u2699\ufe0f -> Properties -> Installed Files -> Verify this game's files are installed correctly -> Verify integrity of game files"
       ],
       "sourceRefs": [
         {
@@ -2559,7 +2580,7 @@
       "id": "update-v475",
       "type": "version_update",
       "title": "War Brokers v475",
-      "description": "(live later today) New map, Cologne! Adjusted damage done by weapons against vehicles so vehicles are more survivable. [Community suggestion] ESC will close the main menu Fix vehicle control on mobile devices. 📱 Add option to disable quick chat. 💬 [Community suggestion] Fixed lava 🔥 color on the Tomb map. [Community bug report] Added option for transparency for the reticule dot. :scope: [Community...",
+      "description": "(live later today) New map, Cologne! Adjusted damage done by weapons against vehicles so vehicles are more survivable. [Community suggestion] ESC will close the main menu Fix vehicle control on mobile devices. \ud83d\udcf1 Add option to disable quick chat. \ud83d\udcac [Community suggestion] Fixed lava \ud83d\udd25 color on the Tomb map. [Community bug report] Added option for transparency for the reticule dot. :scope: [Community...",
       "releaseDate": "2022-08-05",
       "datePrecision": "day",
       "priority": "high",
@@ -2568,20 +2589,20 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v475",
-        "needsManualImage": true
+        "url": "images/map_images/Cologne_vote.webp",
+        "alt": "Cologne",
+        "needsManualImage": false
       },
       "content": [
         "(live later today)",
         "New map, Cologne!",
         "Adjusted damage done by weapons against vehicles so vehicles are more survivable. [Community suggestion]",
         "ESC will close the main menu",
-        "Fix vehicle control on mobile devices. 📱",
-        "Add option to disable quick chat. 💬 [Community suggestion]",
-        "Fixed lava 🔥 color on the Tomb map. [Community bug report]",
+        "Fix vehicle control on mobile devices. \ud83d\udcf1",
+        "Add option to disable quick chat. \ud83d\udcac [Community suggestion]",
+        "Fixed lava \ud83d\udd25 color on the Tomb map. [Community bug report]",
         "Added option for transparency for the reticule dot. :scope: [Community suggestion]",
-        "Added \"Incognito Mode\" 🕵️ on Friends tab to make you appear offline and as a guest. [Community suggestion]",
+        "Added \"Incognito Mode\" \ud83d\udd75\ufe0f on Friends tab to make you appear offline and as a guest. [Community suggestion]",
         "Added radar dishes to mini map in Battle Royale mode. [Community suggestion]",
         "Spawn protection will turn off within 100 meters of an outdoor objective or within 35 meters of an indoor objective (missile launch, bomb disposal, etc.). [Community suggestion]",
         "Change capture point game to use one point.",
@@ -2596,7 +2617,7 @@
         "Your own team members cannot disarm your own laser mines with smoke/concussion/grenades any more. [Community suggestion]",
         "Quick chat messages issued in one language will be translated to your language in the chat window. [Community suggestion]",
         "Fixed message of the day showing up over matchmaking. [Community bug report]",
-        "Fixed Linux 🐧 mouse click bug. [Community bug report]",
+        "Fixed Linux \ud83d\udc27 mouse click bug. [Community bug report]",
         "FPS cap increased to 500. [Community suggestion]",
         "Weapon values and magazine clip sizes have been tweaked for some weapons. [Community suggestion]"
       ],
@@ -2621,6 +2642,13 @@
           "name": "Cologne",
           "date": "2022-08-05",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Cologne_vote.webp",
+          "alt": "Cologne",
+          "needsManualImage": false
         }
       ]
     },
@@ -3221,9 +3249,9 @@
         "map_update"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v460",
-        "needsManualImage": true
+        "url": "images/map_images/Zen_vote.webp",
+        "alt": "Zen Garden",
+        "needsManualImage": false
       },
       "content": [
         "New map: Zen Garden",
@@ -3258,6 +3286,18 @@
           "name": "Heist interior update",
           "date": "2022-03-17",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Zen_vote.webp",
+          "alt": "Zen Garden",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/map_images/Heist_vote.webp",
+          "alt": "Heist interior update",
+          "needsManualImage": false
         }
       ]
     },
@@ -3889,6 +3929,42 @@
       ]
     },
     {
+      "id": "update-v444-2021-11-23-2",
+      "type": "version_update",
+      "title": "War Brokers v444",
+      "description": "Steam clients are live now for v444, servers will hopefully be updated later today.",
+      "releaseDate": "2021-11-23",
+      "datePrecision": "day",
+      "priority": "low",
+      "tags": [
+        "update",
+        "patch"
+      ],
+      "image": {
+        "url": null,
+        "alt": "War Brokers v444",
+        "needsManualImage": true
+      },
+      "content": [
+        "Steam clients are live now for v444, servers will hopefully be updated later today."
+      ],
+      "sourceRefs": [
+        {
+          "kind": "discord_message",
+          "source": "discord_changelog_export",
+          "messageId": "912866132187316276",
+          "timestamp": "2021-11-23T18:44:06.146-06:00",
+          "author": "joja15",
+          "url": "https://discord.com/channels/324984733102768128/403637752962220032/912866132187316276"
+        },
+        {
+          "kind": "web_page",
+          "source": "fandom_updates_page",
+          "url": "https://war-brokers.fandom.com/wiki/Updates"
+        }
+      ]
+    },
+    {
       "id": "update-v444-2021-11-23",
       "type": "version_update",
       "title": "War Brokers v444",
@@ -3931,42 +4007,6 @@
       ]
     },
     {
-      "id": "update-v444-2021-11-23-2",
-      "type": "version_update",
-      "title": "War Brokers v444",
-      "description": "Steam clients are live now for v444, servers will hopefully be updated later today.",
-      "releaseDate": "2021-11-23",
-      "datePrecision": "day",
-      "priority": "low",
-      "tags": [
-        "update",
-        "patch"
-      ],
-      "image": {
-        "url": null,
-        "alt": "War Brokers v444",
-        "needsManualImage": true
-      },
-      "content": [
-        "Steam clients are live now for v444, servers will hopefully be updated later today."
-      ],
-      "sourceRefs": [
-        {
-          "kind": "discord_message",
-          "source": "discord_changelog_export",
-          "messageId": "912866132187316276",
-          "timestamp": "2021-11-23T18:44:06.146-06:00",
-          "author": "joja15",
-          "url": "https://discord.com/channels/324984733102768128/403637752962220032/912866132187316276"
-        },
-        {
-          "kind": "web_page",
-          "source": "fandom_updates_page",
-          "url": "https://war-brokers.fandom.com/wiki/Updates"
-        }
-      ]
-    },
-    {
       "id": "update-v443",
       "type": "version_update",
       "title": "War Brokers v443",
@@ -3980,9 +4020,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v443",
-        "needsManualImage": true
+        "url": "images/map_images/CrissCross_vote.webp",
+        "alt": "Criss Cross",
+        "needsManualImage": false
       },
       "content": [
         "Added ability to change skins on the two jets and the Battle Royale muscle car.",
@@ -4017,6 +4057,13 @@
           "name": "Criss Cross",
           "date": "2021-11-10",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/CrissCross_vote.webp",
+          "alt": "Criss Cross",
+          "needsManualImage": false
         }
       ]
     },
@@ -4064,15 +4111,15 @@
       "description": "Fix infinite bullet cheat in Battle Royale and Dead City. Health bar is purple when you are invulnerable (community suggestion). Fix slowdown when sniper HUD is on (community bug report). Improve frame rate for browser version of game. Add extra state for frame rate counter to not show ping graph as well. Disable outline of vehicles if HUD is turned off (community suggestion). Added 100 coins for $0.99 to purchase...",
       "releaseDate": "2021-10-28",
       "datePrecision": "day",
-      "priority": "low",
+      "priority": "high",
       "tags": [
         "update",
-        "patch"
+        "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v441",
-        "needsManualImage": true
+        "url": "images/map_images/Containers_vote.webp",
+        "alt": "Containers",
+        "needsManualImage": false
       },
       "content": [
         "Fix infinite bullet cheat in Battle Royale and Dead City.",
@@ -4102,6 +4149,22 @@
           "kind": "web_page",
           "source": "fandom_updates_page",
           "url": "https://war-brokers.fandom.com/wiki/Updates"
+        }
+      ],
+      "releaseItems": [
+        {
+          "kind": "map",
+          "name": "Containers",
+          "date": "2021-10-28",
+          "dateType": "public_update",
+          "note": "Added per community/dev correction: v441 released Containers."
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Containers_vote.webp",
+          "alt": "Containers",
+          "needsManualImage": false
         }
       ]
     },
@@ -4656,9 +4719,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v426",
-        "needsManualImage": true
+        "url": "images/map_images/Siege_vote.webp",
+        "alt": "Siege",
+        "needsManualImage": false
       },
       "content": [
         "New map, Siege! (based on suggestion from community member for a map with a dense forest).",
@@ -4690,6 +4753,13 @@
           "name": "Siege",
           "date": "2021-08-26",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Siege_vote.webp",
+          "alt": "Siege",
+          "needsManualImage": false
         }
       ]
     },
@@ -5033,6 +5103,49 @@
       ]
     },
     {
+      "id": "manual-map-space-station-2021-07-07",
+      "type": "version_update",
+      "title": "Space Station map release",
+      "description": "Space Station was released as a War Brokers map. This release is tracked from community/dev history because it was not present as a clear named entry in the imported changelog data.",
+      "releaseDate": "2021-07-07",
+      "datePrecision": "day",
+      "priority": "high",
+      "tags": [
+        "update",
+        "manual_entry",
+        "map_release"
+      ],
+      "image": {
+        "url": "images/map_images/SpaceStation_vote.webp",
+        "alt": "Space Station",
+        "needsManualImage": false
+      },
+      "images": [
+        {
+          "url": "images/map_images/SpaceStation_vote.webp",
+          "alt": "Space Station",
+          "needsManualImage": false
+        }
+      ],
+      "content": [
+        "Manual timeline entry added from community/dev map-history notes."
+      ],
+      "releaseItems": [
+        {
+          "kind": "map",
+          "name": "Space Station",
+          "date": "2021-07-07",
+          "dateType": "community_confirmed"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "community_dev_notes",
+          "note": "User-provided/community-dev corrected map history."
+        }
+      ]
+    },
+    {
       "id": "update-v415",
       "type": "version_update",
       "title": "War Brokers v415",
@@ -5320,8 +5433,8 @@
         "map_release"
       ],
       "image": {
-        "url": "https://cdn.discordapp.com/attachments/403637752962220032/824017299467272292/unknown.png?ex=6a5004e9&is=6a4eb369&hm=c6a71d8ac03527d43737d7964b8520eba0a295e9e5c5d6b7c4c50b77c87cdd8e&",
-        "alt": "War Brokers v408",
+        "url": "images/map_images/Pyramid_vote.webp",
+        "alt": "Pyramid",
         "needsManualImage": false
       },
       "content": [
@@ -5352,6 +5465,13 @@
           "date": "2021-03-23",
           "dateType": "public_update"
         }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Pyramid_vote.webp",
+          "alt": "Pyramid",
+          "needsManualImage": false
+        }
       ]
     },
     {
@@ -5361,15 +5481,15 @@
       "description": "Fixed glitch causing pause when going from match making server to game server in Battle Royale mode. [Community Bug report] \"Cyberpunk\" version of the Tribute map. Change minigun to require rifle ammo in Battle Royale and Dead City. [Community Suggestion] Plane may air drop you heavy ammo now. [Community Suggestion] Heavy ammo pickups have 20 rounds instead of 200 in Battle Royale and Dead City. If you have no...",
       "releaseDate": "2021-03-10",
       "datePrecision": "day",
-      "priority": "low",
+      "priority": "high",
       "tags": [
         "update",
-        "map_update"
+        "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v407",
-        "needsManualImage": true
+        "url": "images/map_images/TributeSilk_vote.webp",
+        "alt": "Cyber Tribute",
+        "needsManualImage": false
       },
       "content": [
         "Fixed glitch causing pause when going from match making server to game server in Battle Royale mode. [Community Bug report]",
@@ -5378,7 +5498,7 @@
         "Plane may air drop you heavy ammo now. [Community Suggestion]",
         "Heavy ammo pickups have 20 rounds instead of 200 in Battle Royale and Dead City.",
         "If you have no deaths your K/D will be inf in the top right of the results screen. [Community Suggestion]",
-        "Fixed bug in team sizes in 4v4 mode, should always be 4v4 now. No more 5v3's 🙂",
+        "Fixed bug in team sizes in 4v4 mode, should always be 4v4 now. No more 5v3's \ud83d\ude42",
         "Fixed possible disconnection bug at the end of round in 4v4, regular, or Dead City mode.",
         "New 4v4 map \"Sniper Alley\"."
       ],
@@ -5399,10 +5519,30 @@
       ],
       "releaseItems": [
         {
-          "kind": "map_update",
-          "name": "Cyberpunk Tribute / Cyber Tribute",
+          "kind": "map",
+          "name": "Cyber Tribute",
           "date": "2021-03-10",
-          "dateType": "public_update"
+          "dateType": "public_update",
+          "note": "Corrected from imported \u201cCyberpunk version of Tribute\u201d wording; community/dev note says this released Cyber Tribute."
+        },
+        {
+          "kind": "map",
+          "name": "Sniper Alley",
+          "date": "2021-03-10",
+          "dateType": "public_update",
+          "note": "Added per community/dev correction: v407 released Sniper Alley too."
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/TributeSilk_vote.webp",
+          "alt": "Cyber Tribute",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/map_images/SniperAlley_vote.webp",
+          "alt": "Sniper Alley",
+          "needsManualImage": false
         }
       ]
     },
@@ -5488,8 +5628,8 @@
         "map_release"
       ],
       "image": {
-        "url": "https://cdn.discordapp.com/attachments/403637752962220032/816779694593802260/unknown.png?ex=6a500e5e&is=6a4ebcde&hm=3c962c0455a98a2449f4576436cc806484e6acf8abbbc7de6c511e5da91e4bd2&",
-        "alt": "War Brokers v405",
+        "url": "images/map_images/ThreeLanes_vote.webp",
+        "alt": "Three Lane",
         "needsManualImage": false
       },
       "content": [
@@ -5526,13 +5666,20 @@
           "date": "2021-03-03",
           "dateType": "public_update"
         }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/ThreeLanes_vote.webp",
+          "alt": "Three Lane",
+          "needsManualImage": false
+        }
       ]
     },
     {
       "id": "update-v403",
       "type": "version_update",
       "title": "War Brokers v403",
-      "description": "New items for sale for the Chinese New Year! Binoculars are back, use E key (zoom key) to use. [Community Request] New game mode 4v4 available in USA to test. New 4v4 map. Ability to save/restore 5 sets of outfits for your player. [Community Suggestion]",
+      "description": "New items for sale for the Chinese New Year! Binoculars returned by community request. 4v4 became available in USA for testing with two 4v4 maps: Tower of Power and Snipers Only. Players could also save and restore five outfit presets.",
       "releaseDate": "2021-02-11",
       "datePrecision": "day",
       "priority": "high",
@@ -5542,15 +5689,15 @@
         "mode_release"
       ],
       "image": {
-        "url": "https://cdn.discordapp.com/attachments/403637752962220032/809516377949601892/OX_WB_Banner.png?ex=6a4fffe0&is=6a4eae60&hm=571d1f0dbc39e0b602970b2940faf84bb589719d4e71b20b1f3165f5fa63b69a&",
-        "alt": "War Brokers v403",
+        "url": "images/map_images/TowerOfPower_vote.webp",
+        "alt": "Tower of Power",
         "needsManualImage": false
       },
       "content": [
         "New items for sale for the Chinese New Year!",
         "Binoculars are back, use E key (zoom key) to use. [Community Request]",
         "New game mode 4v4 available in USA to test.",
-        "New 4v4 map.",
+        "New 4v4 maps: Tower of Power and Snipers Only.",
         "Ability to save/restore 5 sets of outfits for your player. [Community Suggestion]"
       ],
       "sourceRefs": [
@@ -5577,9 +5724,29 @@
         },
         {
           "kind": "map",
-          "name": "New 4v4 map",
+          "name": "Tower of Power",
           "date": "2021-02-11",
-          "dateType": "public_update"
+          "dateType": "public_update",
+          "note": "Community correction: v403's unnamed new 4v4 map includes Tower of Power. The date was supplied with a question mark, so keep this open for future confirmation."
+        },
+        {
+          "kind": "map",
+          "name": "Snipers Only",
+          "date": "2021-02-11",
+          "dateType": "public_update",
+          "note": "Community correction: v403's unnamed new 4v4 map includes Snipers Only. The date was supplied with a question mark, so keep this open for future confirmation."
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/TowerOfPower_vote.webp",
+          "alt": "Tower of Power",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/map_images/SnipersOnly_vote.webp",
+          "alt": "Snipers Only",
+          "needsManualImage": false
         }
       ]
     },
@@ -5791,8 +5958,8 @@
         "mode_release"
       ],
       "image": {
-        "url": "https://cdn.discordapp.com/attachments/403637752962220032/789526436041326622/unknown.png?ex=6a4fc94b&is=6a4e77cb&hm=663d4e4743ed086aa499086c3b57c9de5c6cc20780c36acbd5133927f313cb39&",
-        "alt": "War Brokers v397",
+        "url": "images/map_images/Heist_vote.webp",
+        "alt": "Heist",
         "needsManualImage": false
       },
       "content": [
@@ -5845,6 +6012,13 @@
           "name": "Holiday Zombie Battle Royale",
           "date": "2020-12-18",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Heist_vote.webp",
+          "alt": "Heist",
+          "needsManualImage": false
         }
       ]
     },
@@ -6090,9 +6264,9 @@
         "mode_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v390",
-        "needsManualImage": true
+        "url": "images/map_images/DeadEndCity_vote.webp",
+        "alt": "Dead End City",
+        "needsManualImage": false
       },
       "content": [
         "New map and gameplay mode, Dead End City with Death Match Royale",
@@ -6125,6 +6299,13 @@
           "name": "Death Match Royale",
           "date": "2020-10-23",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/DeadEndCity_vote.webp",
+          "alt": "Dead End City",
+          "needsManualImage": false
         }
       ]
     },
@@ -6298,9 +6479,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v377",
-        "needsManualImage": true
+        "url": "images/map_images/Frontier_vote.webp",
+        "alt": "Frontier",
+        "needsManualImage": false
       },
       "content": [
         "New map, Frontier, coming Saturday morning in Classic Mode.",
@@ -6331,6 +6512,13 @@
           "name": "Frontier",
           "date": "2020-09-11",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Frontier_vote.webp",
+          "alt": "Frontier",
+          "needsManualImage": false
         }
       ]
     },
@@ -6756,6 +6944,50 @@
       ]
     },
     {
+      "id": "manual-map-quarry-2020-06-30",
+      "type": "version_update",
+      "title": "Quarry map release",
+      "description": "Quarry was released as a War Brokers map. This release is tracked from community/dev history because it was not present as a clear named entry in the imported changelog data.",
+      "releaseDate": "2020-06-30",
+      "datePrecision": "day",
+      "priority": "high",
+      "tags": [
+        "update",
+        "manual_entry",
+        "map_release"
+      ],
+      "image": {
+        "url": "images/map_images/Quarry_vote.webp",
+        "alt": "Quarry",
+        "needsManualImage": false
+      },
+      "content": [
+        "Manual timeline entry added from community/dev map-history notes."
+      ],
+      "sourceRefs": [
+        {
+          "kind": "manual_note",
+          "source": "community_dev_notes",
+          "note": "User supplied release date: Quarry, June 30, 2020."
+        }
+      ],
+      "releaseItems": [
+        {
+          "kind": "map",
+          "name": "Quarry",
+          "date": "2020-06-30",
+          "dateType": "community_confirmed"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Quarry_vote.webp",
+          "alt": "Quarry",
+          "needsManualImage": false
+        }
+      ]
+    },
+    {
       "id": "update-2020-06-11-war-brokers-update-43013",
       "type": "version_update",
       "title": "War Brokers update",
@@ -6814,6 +7046,50 @@
           "timestamp": "2020-05-22T10:32:54.996-05:00",
           "author": "joja15",
           "url": "https://discord.com/channels/324984733102768128/403637752962220032/713414095650422794"
+        }
+      ]
+    },
+    {
+      "id": "manual-map-dwarf-dungeon-2020-05-21",
+      "type": "version_update",
+      "title": "Dwarf Dungeon map release",
+      "description": "Dwarf Dungeon was released as a War Brokers map. This release is tracked from community/dev history because it was not present as a clear named entry in the imported changelog data.",
+      "releaseDate": "2020-05-21",
+      "datePrecision": "day",
+      "priority": "high",
+      "tags": [
+        "update",
+        "manual_entry",
+        "map_release"
+      ],
+      "image": {
+        "url": "images/map_images/DwarfDungeon_vote.webp",
+        "alt": "Dwarf Dungeon",
+        "needsManualImage": false
+      },
+      "content": [
+        "Manual timeline entry added from community/dev map-history notes."
+      ],
+      "sourceRefs": [
+        {
+          "kind": "manual_note",
+          "source": "community_dev_notes",
+          "note": "User supplied release date: Dwarf Dungeon, May 21, 2020."
+        }
+      ],
+      "releaseItems": [
+        {
+          "kind": "map",
+          "name": "Dwarf Dungeon",
+          "date": "2020-05-21",
+          "dateType": "community_confirmed"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/DwarfDungeon_vote.webp",
+          "alt": "Dwarf Dungeon",
+          "needsManualImage": false
         }
       ]
     },
@@ -7101,9 +7377,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v338",
-        "needsManualImage": true
+        "url": "images/map_images/Kitchen_vote.webp",
+        "alt": "Kitchen",
+        "needsManualImage": false
       },
       "content": [
         "Warbrokers.io would like you to know that we are here for you during this global crisis. We are doing everything we can to make sure our servers are up and running 24 hours a day, 7 days a week so you can have fun. To help you through this time, we are adding the following features to our game today:",
@@ -7137,6 +7413,13 @@
           "name": "Kitchen",
           "date": "2020-03-31",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Kitchen_vote.webp",
+          "alt": "Kitchen",
+          "needsManualImage": false
         }
       ]
     },
@@ -7376,12 +7659,13 @@
       "priority": "high",
       "tags": [
         "update",
-        "event"
+        "event",
+        "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v323",
-        "needsManualImage": true
+        "url": "images/map_images/Hangar_vote.webp",
+        "alt": "Hangar",
+        "needsManualImage": false
       },
       "content": [
         "Fixed getting stuck in collision in competitive mode",
@@ -7407,6 +7691,22 @@
           "kind": "web_page",
           "source": "fandom_updates_page",
           "url": "https://war-brokers.fandom.com/wiki/Updates"
+        }
+      ],
+      "releaseItems": [
+        {
+          "kind": "map",
+          "name": "Hangar",
+          "date": "2020-02-13",
+          "dateType": "public_update",
+          "note": "Added per community/dev correction: Hangar released on this date."
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Hangar_vote.webp",
+          "alt": "Hangar",
+          "needsManualImage": false
         }
       ]
     },
@@ -7890,8 +8190,8 @@
         "map_release"
       ],
       "image": {
-        "url": "https://cdn.discordapp.com/attachments/403637752962220032/631928220236906496/Halloween1_Cover_Image.png?ex=6a4fef04&is=6a4e9d84&hm=84a517432e0e1996f0752d62bb79add2fa7f006ac8ba130855e7d755d02fbb5d&",
-        "alt": "War Brokers v299",
+        "url": "images/map_images/SkullIsland_vote.webp",
+        "alt": "Skull Island",
         "needsManualImage": false
       },
       "content": [
@@ -7920,6 +8220,13 @@
           "name": "Skull Island",
           "date": "2019-10-10",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/SkullIsland_vote.webp",
+          "alt": "Skull Island",
+          "needsManualImage": false
         }
       ]
     },
@@ -7975,9 +8282,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v296",
-        "needsManualImage": true
+        "url": "images/map_images/Area15Base_vote.webp",
+        "alt": "Area 15 Base",
+        "needsManualImage": false
       },
       "content": [
         "Two new maps for the Storm Area 15 Event!",
@@ -8014,6 +8321,18 @@
           "name": "Storm Area 15 maps",
           "date": "2019-09-18",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Area15Base_vote.webp",
+          "alt": "Area 15 Base",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/map_images/Area15Bunker_vote.webp",
+          "alt": "Area 15 Bunker",
+          "needsManualImage": false
         }
       ]
     },
@@ -8574,9 +8893,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v283",
-        "needsManualImage": true
+        "url": "images/map_images/Moonbase_vote.webp",
+        "alt": "Moonbase",
+        "needsManualImage": false
       },
       "content": [
         "New map: MOONBASE",
@@ -8614,6 +8933,13 @@
           "name": "Moonbase",
           "date": "2019-07-17",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Moonbase_vote.webp",
+          "alt": "Moonbase",
+          "needsManualImage": false
         }
       ]
     },
@@ -9097,7 +9423,7 @@
         "Loot spawn locations have been changed up.",
         "Lots of new interiors for buildings, especially in Del Gato.",
         "Added a few ladders in the Port High Rise section so you can parkour along the tops of the high rise buildings.",
-        "New red zone texture. Should make it easier to see for color blind people as well as it looks cooler. 😃"
+        "New red zone texture. Should make it easier to see for color blind people as well as it looks cooler. \ud83d\ude03"
       ],
       "sourceRefs": [
         {
@@ -9316,9 +9642,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v257",
-        "needsManualImage": true
+        "url": "images/map_images/Tribute_vote.webp",
+        "alt": "Tribute",
+        "needsManualImage": false
       },
       "content": [
         "(Going live today 2019-03-20)",
@@ -9352,6 +9678,13 @@
           "name": "Tribute",
           "date": "2019-03-20",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Tribute_vote.webp",
+          "alt": "Tribute",
+          "needsManualImage": false
         }
       ]
     },
@@ -9517,9 +9850,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v247",
-        "needsManualImage": true
+        "url": "images/map_images/Somme_vote.webp",
+        "alt": "The Somme",
+        "needsManualImage": false
       },
       "content": [
         "New trench war map, \"The Somme\"",
@@ -9546,6 +9879,13 @@
           "name": "The Somme",
           "date": "2019-02-02",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Somme_vote.webp",
+          "alt": "The Somme",
+          "needsManualImage": false
         }
       ]
     },
@@ -9675,9 +10015,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v240",
-        "needsManualImage": true
+        "url": "images/map_images/Tomb_vote.webp",
+        "alt": "Tomb",
+        "needsManualImage": false
       },
       "content": [
         "New map: Tomb.",
@@ -9709,6 +10049,13 @@
           "name": "Tomb",
           "date": "2019-01-14",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Tomb_vote.webp",
+          "alt": "Tomb",
+          "needsManualImage": false
         }
       ]
     },
@@ -9991,9 +10338,9 @@
         "mode_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v225",
-        "needsManualImage": true
+        "url": "images/map_images/CityPoint_vote.webp",
+        "alt": "City Point",
+        "needsManualImage": false
       },
       "content": [
         "Adjusted aim of War Bots to hit your head less.",
@@ -10040,6 +10387,13 @@
           "name": "Free For All Death Match",
           "date": "2018-11-15",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/CityPoint_vote.webp",
+          "alt": "City Point",
+          "needsManualImage": false
         }
       ]
     },
@@ -10692,7 +11046,7 @@
         "We discovered with this new parachute update that in regular mode it is much easier to shoot people out of the sky. We are going to be rolling out an fix for that in about 1-2 hours. This update will only impact parachuting in regular mode. We will be implementing the following changes.",
         "Increasing the descent rate of the parachute.",
         "Changing A/D to strafe with no turning like the old parachute mode.",
-        "So shoot your enemies out of the sky why you have the chance before this need update comes out and makes it more difficult. 😃"
+        "So shoot your enemies out of the sky why you have the chance before this need update comes out and makes it more difficult. \ud83d\ude03"
       ],
       "sourceRefs": [
         {
@@ -10851,12 +11205,13 @@
       "priority": "high",
       "tags": [
         "update",
+        "map_release",
         "mode_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v179",
-        "needsManualImage": true
+        "url": "images/map_images/BattleRoyale_vote.webp",
+        "alt": "Battle Royale",
+        "needsManualImage": false
       },
       "content": [
         "All new Battle Royale Mode! Fight with up to 60 other players on a 9km^2 map! We will have servers on NA, EU, and AS for this new mode.",
@@ -10887,6 +11242,20 @@
           "name": "Battle Royale",
           "date": "2018-08-17",
           "dateType": "public_update"
+        },
+        {
+          "kind": "map",
+          "name": "Battle Royale",
+          "date": "2018-08-17",
+          "dateType": "public_update",
+          "note": "Battle Royale mode/map release."
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/BattleRoyale_vote.webp",
+          "alt": "Battle Royale",
+          "needsManualImage": false
         }
       ]
     },
@@ -10991,7 +11360,7 @@
       "id": "update-v165",
       "type": "version_update",
       "title": "War Brokers v165",
-      "description": "Client has already been released. Servers will be updated at 4:00 PM CST New level The Bridge! Fight to take control of the bridge and kick the enemy team off! ELO ratings (view on results screen and in main menu on stats tab) ELO ratings (may not display correctly yet on results) Smoothed rotation for other people's characters/vehicles Package will highlight again when you can pick it up Rocket particle trails...",
+      "description": "Client has already been released. Servers will be updated at 4:00 PM CST New level Remagen! Fight to take control of the Remagen crossing and push the enemy team back! ELO ratings (view on results screen and in main menu on stats tab) ELO ratings (may not display correctly yet on results) Smoothed rotation for other people's characters/vehicles Package will highlight again when you can pick it up Rocket particle trails...",
       "releaseDate": "2018-06-08",
       "datePrecision": "day",
       "priority": "high",
@@ -11000,13 +11369,13 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v165",
-        "needsManualImage": true
+        "url": "images/map_images/Remagen_vote.webp",
+        "alt": "Remagen",
+        "needsManualImage": false
       },
       "content": [
         "Client has already been released. Servers will be updated at 4:00 PM CST",
-        "New level The Bridge! Fight to take control of the bridge and kick the enemy team off!",
+        "New level Remagen! Fight to take control of the Remagen crossing and push the enemy team back!",
         "ELO ratings (view on results screen and in main menu on stats tab)",
         "ELO ratings (may not display correctly yet on results)",
         "Smoothed rotation for other people's characters/vehicles",
@@ -11048,9 +11417,17 @@
       "releaseItems": [
         {
           "kind": "map",
-          "name": "The Bridge",
+          "name": "Remagen",
           "date": "2018-06-08",
-          "dateType": "public_update"
+          "dateType": "public_update",
+          "note": "Originally imported as \u201cThe Bridge\u201d; corrected per community/dev note that this map is Remagen."
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Remagen_vote.webp",
+          "alt": "Remagen",
+          "needsManualImage": false
         }
       ]
     },
@@ -11135,7 +11512,7 @@
         "Improved larger round mini-map rendering.",
         "New super large map, press N to zoom to fill screen with entire map.",
         "Increased purchased nick size to 20 characters.",
-        "Improve mouse sensitivity. We care about the mouse’s feelings.",
+        "Improve mouse sensitivity. We care about the mouse\u2019s feelings.",
         "Fixed customized keys for helicopter.",
         "Draw barrier when flying plane or helicopter near edge of map. No more feeling what a bird feels like flying into a window.",
         "Support for more empty vehicles instead of the previous 3 max. No more shooting your team mate in the knee to get to the last vehicle first.",
@@ -11229,9 +11606,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v151",
-        "needsManualImage": true
+        "url": "images/map_images/Southwest_vote.webp",
+        "alt": "Southwest",
+        "needsManualImage": false
       },
       "content": [
         "New Southwest level",
@@ -11299,6 +11676,13 @@
           "name": "Southwest",
           "date": "2018-05-04",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Southwest_vote.webp",
+          "alt": "Southwest",
+          "needsManualImage": false
         }
       ]
     },
@@ -11934,9 +12318,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v128",
-        "needsManualImage": true
+        "url": "images/map_images/Escape_vote.webp",
+        "alt": "Escape",
+        "needsManualImage": false
       },
       "content": [
         "New map: ESCAPE - This is a tight quarters out door map for guaranteed non-stop action!",
@@ -12012,6 +12396,13 @@
           "date": "2018-03-05",
           "dateType": "public_update"
         }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Escape_vote.webp",
+          "alt": "Escape",
+          "needsManualImage": false
+        }
       ]
     },
     {
@@ -12027,9 +12418,9 @@
         "map_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v125",
-        "needsManualImage": true
+        "url": "images/map_images/Temple_vote.webp",
+        "alt": "Temple",
+        "needsManualImage": false
       },
       "content": [
         "New \"TEMPLE\" jungle map. See if you can find the hidden tomb. :-)",
@@ -12064,6 +12455,13 @@
           "name": "Temple",
           "date": "2018-02-12",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/map_images/Temple_vote.webp",
+          "alt": "Temple",
+          "needsManualImage": false
         }
       ]
     },
@@ -12384,10 +12782,53 @@
           "dateType": "public_update"
         }
       ]
+    },
+    {
+      "id": "manual-map-office-2017-12-22",
+      "type": "version_update",
+      "title": "Office map release",
+      "description": "Office was released after the base-game map set and before the imported changelog history. This release is tracked from community/dev history rather than official update text.",
+      "releaseDate": "2017-12-22",
+      "datePrecision": "day",
+      "priority": "high",
+      "tags": [
+        "update",
+        "manual_entry",
+        "map_release"
+      ],
+      "image": {
+        "url": "images/map_images/Office_vote.webp",
+        "alt": "Office",
+        "needsManualImage": false
+      },
+      "images": [
+        {
+          "url": "images/map_images/Office_vote.webp",
+          "alt": "Office",
+          "needsManualImage": false
+        }
+      ],
+      "content": [
+        "Manual timeline entry added from community/dev map-history notes."
+      ],
+      "releaseItems": [
+        {
+          "kind": "map",
+          "name": "Office",
+          "date": "2017-12-22",
+          "dateType": "community_confirmed"
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "community_dev_notes",
+          "note": "User-provided/community-dev corrected map history."
+        }
+      ]
     }
   ],
   "metadata": {
-    "entryCount": 277,
+    "entryCount": 281,
     "eventMergeNote": "Merged 70 generated event rows into their related version update entries.",
     "taggingNote": "map_release and weapon_release tags indicate release-style entries and power timeline filters.",
     "labelingNote": "Timeline tags were manually curated by entry. Broad keyword-style map/weapon tags were removed; map_release and weapon_release now mean actual releases.",
@@ -12400,11 +12841,21 @@
         "RPG"
       ],
       "maps": [
-        "Desert",
-        "Northwest",
-        "Pacific"
+        {
+          "name": "Desert",
+          "image": "images/map_images/Desert_vote.webp"
+        },
+        {
+          "name": "Northwest",
+          "label": "Northwest (legacy)",
+          "image": "images/map_images/Northwest_vote.webp"
+        },
+        {
+          "name": "Pacific",
+          "image": "images/map_images/Pacific_vote.webp"
+        }
       ],
-      "note": "Provided by developer/community context: these were base-game items, so timeline release tracking starts with additions after them."
+      "note": "Community/dev correction: Desert, Northwest (legacy), and Pacific came with the base game, so they are not counted as post-launch map releases."
     },
     "releaseDateNote": "releaseItems dates are public update-log dates where available. Internal addition/menu order can differ and still needs developer confirmation for some items.",
     "needsReleaseConfirmation": [
@@ -12420,6 +12871,16 @@
         "status": "unreleased_or_unconfirmed",
         "note": "Listed as UNRELEASED on the War Brokers Wiki Weapons page; dev conversation may be referring to a menu/internal order, not a public release."
       }
-    ]
+    ],
+    "mapImageNote": "Map release/update entries use local images from images/map_images when a confident filename match exists. Some game maps exist as image files but do not have confirmed release entries in the imported timeline.",
+    "mapImagesNeedingReview": [],
+    "undatedKnownMapReleases": [
+      {
+        "name": "Flooded",
+        "image": "images/map_images/Flooded_vote.webp",
+        "note": "Released after the pre-game/base period but not mentioned in imported updates; no confirmed public release date provided yet."
+      }
+    ],
+    "fourVFourMapNote": "Most 4v4 maps were added after Competitive mode was removed and maps were moved into 4v4. Keep this separate from original public release dates unless a specific date is confirmed."
   }
 }

@@ -250,6 +250,7 @@
 
     function renderEntry(entry) {
         const showImage = shouldShowImage(entry);
+        const images = getEntryImages(entry);
         const detailClass = showImage ? 'has-media' : 'no-media';
         const eventBadge = entry.type !== 'event' && hasTag(entry, 'event')
             ? '<span class="timeline-badge event-badge">Event</span>'
@@ -270,9 +271,13 @@
                 </button>
                 <div class="timeline-entry-details ${detailClass}">
                     ${showImage ? `
-                        <figure class="timeline-entry-media">
-                            <img src="${escapeHtml(entry.image.url)}" alt="${escapeHtml(entry.image.alt || entry.title)}" loading="lazy">
-                        </figure>
+                        <div class="timeline-entry-media-grid">
+                            ${images.map(image => `
+                                <figure class="timeline-entry-media">
+                                    <img src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt || entry.title)}" loading="lazy">
+                                </figure>
+                            `).join('')}
+                        </div>
                     ` : ''}
                     <div class="timeline-entry-body">
                         <p>${escapeHtml(entry.description || '')}</p>
@@ -330,7 +335,8 @@
     }
 
     function shouldShowImage(entry) {
-        if (!entry.image || !entry.image.url) {
+        const images = getEntryImages(entry);
+        if (images.length === 0) {
             return false;
         }
 
@@ -340,6 +346,18 @@
 
         const tags = entry.tags || [];
         return entry.type === 'version_update' && entry.priority === 'high' && (tags.includes('map_release') || tags.includes('weapon_release'));
+    }
+
+    function getEntryImages(entry) {
+        if (Array.isArray(entry.images) && entry.images.length > 0) {
+            return entry.images.filter(image => image && image.url);
+        }
+
+        if (entry.image && entry.image.url) {
+            return [entry.image];
+        }
+
+        return [];
     }
 
     function hasTag(entry, tag) {

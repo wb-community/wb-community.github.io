@@ -31,11 +31,14 @@ Release items:
 - Use `releaseItems` to list the actual maps, weapons, modes, vehicles, or platform milestones introduced by an entry.
 - `date` should match the public update-log date when available.
 - Base-game items are tracked in `metadata.baseGame`, not as release timeline entries.
+- Use `manual_entry` for community/dev-confirmed releases that are absent from the imported changelog.
+- Use `metadata.undatedKnownMapReleases` for known maps without a confirmed public release date.
 - If the community/dev record gives an internal menu/addition order that differs from public release order, keep the public release date in `releaseItems` and add a note rather than changing the date without confirmation.
 
 Image handling:
 
 - Use `image.url` for a direct image URL when one exists.
+- Use `images` when an entry should show multiple local images, such as a multi-map release.
 - Set `image.url` to `null` and `image.needsManualImage` to `true` when an image should be added manually later.
 
 When adding entries, keep `releaseDate` in `YYYY-MM-DD` format when possible, use stable lowercase kebab-case IDs, and add at least one `sourceRefs` item so future editors can trace where the entry came from.

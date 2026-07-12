@@ -65,6 +65,18 @@
               "needsManualImage": { "type": "boolean" }
             }
           },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["url", "alt", "needsManualImage"],
+              "properties": {
+                "url": { "type": "string" },
+                "alt": { "type": "string" },
+                "needsManualImage": { "type": "boolean" }
+              }
+            }
+          },
           "content": {
             "type": ["array", "string"]
           },

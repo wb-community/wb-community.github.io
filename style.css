@@ -104,7 +104,7 @@ input {
     border-bottom: 4px solid var(--border-color);
     background:
         linear-gradient(90deg, rgba(32, 28, 24, 0.86), rgba(32, 28, 24, 0.53)),
-        url("images/background.jpg") center bottom / cover no-repeat;
+        url("images/project_images/background.jpg") center bottom / cover no-repeat;
     color: #fff0cf;
     padding: 58px 20px 34px;
 }
@@ -951,11 +951,23 @@ input {
     grid-template-columns: minmax(0, 1fr);
 }
 
+.timeline-entry-media-grid {
+    display: grid;
+    gap: 8px;
+    align-self: start;
+    margin-top: 14px;
+}
+
 .timeline-entry-media {
+    margin: 0;
     margin-top: 14px;
     background: #10130f;
     border: 2px solid var(--border-color);
     align-self: start;
+}
+
+.timeline-entry-media-grid .timeline-entry-media {
+    margin-top: 0;
 }
 
 .timeline-entry-media img {
@@ -963,6 +975,9 @@ input {
     height: 160px;
     display: block;
     object-fit: cover;
+    image-rendering: auto;
+    filter: contrast(1.04) saturate(1.04);
+    transform: translateZ(0);
 }
 
 .timeline-entry-body {
