@@ -117,7 +117,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/DesertRedux_vote.webp",
+        "url": "images/map_images/desert-redux.webp",
         "alt": "Desert Redux",
         "needsManualImage": false
       },
@@ -160,7 +160,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/DesertRedux_vote.webp",
+          "url": "images/map_images/desert-redux.webp",
           "alt": "Desert Redux",
           "needsManualImage": false
         }
@@ -804,7 +804,7 @@
         "weapon_release"
       ],
       "image": {
-        "url": "images/map_images/GoldMine_vote.webp",
+        "url": "images/map_images/gold-mine.webp",
         "alt": "Gold Mine update",
         "needsManualImage": false
       },
@@ -876,7 +876,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/GoldMine_vote.webp",
+          "url": "images/map_images/gold-mine.webp",
           "alt": "Gold Mine update",
           "needsManualImage": false
         }
@@ -1200,7 +1200,7 @@
         "weapon_release"
       ],
       "image": {
-        "url": "images/map_images/GoldMine_vote.webp",
+        "url": "images/map_images/gold-mine.webp",
         "alt": "Gold Mine",
         "needsManualImage": false
       },
@@ -1248,7 +1248,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/GoldMine_vote.webp",
+          "url": "images/map_images/gold-mine.webp",
           "alt": "Gold Mine",
           "needsManualImage": false
         }
@@ -2589,7 +2589,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Cologne_vote.webp",
+        "url": "images/map_images/cologne.webp",
         "alt": "Cologne",
         "needsManualImage": false
       },
@@ -2646,7 +2646,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Cologne_vote.webp",
+          "url": "images/map_images/cologne.webp",
           "alt": "Cologne",
           "needsManualImage": false
         }
@@ -3249,7 +3249,7 @@
         "map_update"
       ],
       "image": {
-        "url": "images/map_images/Zen_vote.webp",
+        "url": "images/map_images/zen-garden.webp",
         "alt": "Zen Garden",
         "needsManualImage": false
       },
@@ -3290,12 +3290,12 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Zen_vote.webp",
+          "url": "images/map_images/zen-garden.webp",
           "alt": "Zen Garden",
           "needsManualImage": false
         },
         {
-          "url": "images/map_images/Heist_vote.webp",
+          "url": "images/map_images/heist.webp",
           "alt": "Heist interior update",
           "needsManualImage": false
         }
@@ -4020,7 +4020,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/CrissCross_vote.webp",
+        "url": "images/map_images/criss-cross.webp",
         "alt": "Criss Cross",
         "needsManualImage": false
       },
@@ -4061,7 +4061,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/CrissCross_vote.webp",
+          "url": "images/map_images/criss-cross.webp",
           "alt": "Criss Cross",
           "needsManualImage": false
         }
@@ -4117,7 +4117,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Containers_vote.webp",
+        "url": "images/map_images/containers.webp",
         "alt": "Containers",
         "needsManualImage": false
       },
@@ -4162,7 +4162,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Containers_vote.webp",
+          "url": "images/map_images/containers.webp",
           "alt": "Containers",
           "needsManualImage": false
         }
@@ -4719,7 +4719,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Siege_vote.webp",
+        "url": "images/map_images/siege.webp",
         "alt": "Siege",
         "needsManualImage": false
       },
@@ -4757,7 +4757,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Siege_vote.webp",
+          "url": "images/map_images/siege.webp",
           "alt": "Siege",
           "needsManualImage": false
         }
@@ -5116,13 +5116,13 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/SpaceStation_vote.webp",
+        "url": "images/map_images/space-station.webp",
         "alt": "Space Station",
         "needsManualImage": false
       },
       "images": [
         {
-          "url": "images/map_images/SpaceStation_vote.webp",
+          "url": "images/map_images/space-station.webp",
           "alt": "Space Station",
           "needsManualImage": false
         }
@@ -5433,7 +5433,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Pyramid_vote.webp",
+        "url": "images/map_images/pyramid.webp",
         "alt": "Pyramid",
         "needsManualImage": false
       },
@@ -5468,7 +5468,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Pyramid_vote.webp",
+          "url": "images/map_images/pyramid.webp",
           "alt": "Pyramid",
           "needsManualImage": false
         }
@@ -5487,7 +5487,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/TributeSilk_vote.webp",
+        "url": "images/map_images/cyber-tribute.webp",
         "alt": "Cyber Tribute",
         "needsManualImage": false
       },
@@ -5535,12 +5535,12 @@
       ],
       "images": [
         {
-          "url": "images/map_images/TributeSilk_vote.webp",
+          "url": "images/map_images/cyber-tribute.webp",
           "alt": "Cyber Tribute",
           "needsManualImage": false
         },
         {
-          "url": "images/map_images/SniperAlley_vote.webp",
+          "url": "images/map_images/sniper-alley.jpg",
           "alt": "Sniper Alley",
           "needsManualImage": false
         }
@@ -5628,7 +5628,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/ThreeLanes_vote.webp",
+        "url": "images/map_images/three-lane.jpg",
         "alt": "Three Lane",
         "needsManualImage": false
       },
@@ -5669,7 +5669,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/ThreeLanes_vote.webp",
+          "url": "images/map_images/three-lane.jpg",
           "alt": "Three Lane",
           "needsManualImage": false
         }
@@ -5689,7 +5689,7 @@
         "mode_release"
       ],
       "image": {
-        "url": "images/map_images/TowerOfPower_vote.webp",
+        "url": "images/map_images/tower-of-power.webp",
         "alt": "Tower of Power",
         "needsManualImage": false
       },
@@ -5739,12 +5739,12 @@
       ],
       "images": [
         {
-          "url": "images/map_images/TowerOfPower_vote.webp",
+          "url": "images/map_images/tower-of-power.webp",
           "alt": "Tower of Power",
           "needsManualImage": false
         },
         {
-          "url": "images/map_images/SnipersOnly_vote.webp",
+          "url": "images/map_images/snipers-only.webp",
           "alt": "Snipers Only",
           "needsManualImage": false
         }
@@ -5958,7 +5958,7 @@
         "mode_release"
       ],
       "image": {
-        "url": "images/map_images/Heist_vote.webp",
+        "url": "images/map_images/heist.webp",
         "alt": "Heist",
         "needsManualImage": false
       },
@@ -6016,7 +6016,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Heist_vote.webp",
+          "url": "images/map_images/heist.webp",
           "alt": "Heist",
           "needsManualImage": false
         }
@@ -6264,7 +6264,7 @@
         "mode_release"
       ],
       "image": {
-        "url": "images/map_images/DeadEndCity_vote.webp",
+        "url": "images/map_images/dead-end-city.webp",
         "alt": "Dead End City",
         "needsManualImage": false
       },
@@ -6303,7 +6303,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/DeadEndCity_vote.webp",
+          "url": "images/map_images/dead-end-city.webp",
           "alt": "Dead End City",
           "needsManualImage": false
         }
@@ -6479,7 +6479,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Frontier_vote.webp",
+        "url": "images/map_images/frontier.webp",
         "alt": "Frontier",
         "needsManualImage": false
       },
@@ -6516,7 +6516,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Frontier_vote.webp",
+          "url": "images/map_images/frontier.webp",
           "alt": "Frontier",
           "needsManualImage": false
         }
@@ -6957,7 +6957,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Quarry_vote.webp",
+        "url": "images/map_images/quarry.webp",
         "alt": "Quarry",
         "needsManualImage": false
       },
@@ -6981,7 +6981,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Quarry_vote.webp",
+          "url": "images/map_images/quarry.webp",
           "alt": "Quarry",
           "needsManualImage": false
         }
@@ -7063,7 +7063,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/DwarfDungeon_vote.webp",
+        "url": "images/map_images/dwarf-dungeon.webp",
         "alt": "Dwarf Dungeon",
         "needsManualImage": false
       },
@@ -7087,7 +7087,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/DwarfDungeon_vote.webp",
+          "url": "images/map_images/dwarf-dungeon.webp",
           "alt": "Dwarf Dungeon",
           "needsManualImage": false
         }
@@ -7377,7 +7377,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Kitchen_vote.webp",
+        "url": "images/map_images/kitchen.webp",
         "alt": "Kitchen",
         "needsManualImage": false
       },
@@ -7417,7 +7417,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Kitchen_vote.webp",
+          "url": "images/map_images/kitchen.webp",
           "alt": "Kitchen",
           "needsManualImage": false
         }
@@ -7663,7 +7663,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Hangar_vote.webp",
+        "url": "images/map_images/hangar.webp",
         "alt": "Hangar",
         "needsManualImage": false
       },
@@ -7704,7 +7704,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Hangar_vote.webp",
+          "url": "images/map_images/hangar.webp",
           "alt": "Hangar",
           "needsManualImage": false
         }
@@ -8190,7 +8190,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/SkullIsland_vote.webp",
+        "url": "images/map_images/skull-island.webp",
         "alt": "Skull Island",
         "needsManualImage": false
       },
@@ -8224,7 +8224,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/SkullIsland_vote.webp",
+          "url": "images/map_images/skull-island.webp",
           "alt": "Skull Island",
           "needsManualImage": false
         }
@@ -8282,7 +8282,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Area15Base_vote.webp",
+        "url": "images/map_images/area-15-base.webp",
         "alt": "Area 15 Base",
         "needsManualImage": false
       },
@@ -8325,12 +8325,12 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Area15Base_vote.webp",
+          "url": "images/map_images/area-15-base.webp",
           "alt": "Area 15 Base",
           "needsManualImage": false
         },
         {
-          "url": "images/map_images/Area15Bunker_vote.webp",
+          "url": "images/map_images/area-15-bunker.webp",
           "alt": "Area 15 Bunker",
           "needsManualImage": false
         }
@@ -8893,7 +8893,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Moonbase_vote.webp",
+        "url": "images/map_images/moonbase.jpg",
         "alt": "Moonbase",
         "needsManualImage": false
       },
@@ -8937,7 +8937,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Moonbase_vote.webp",
+          "url": "images/map_images/moonbase.jpg",
           "alt": "Moonbase",
           "needsManualImage": false
         }
@@ -9642,7 +9642,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Tribute_vote.webp",
+        "url": "images/map_images/tribute.webp",
         "alt": "Tribute",
         "needsManualImage": false
       },
@@ -9682,7 +9682,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Tribute_vote.webp",
+          "url": "images/map_images/tribute.webp",
           "alt": "Tribute",
           "needsManualImage": false
         }
@@ -9850,7 +9850,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Somme_vote.webp",
+        "url": "images/map_images/somme.webp",
         "alt": "The Somme",
         "needsManualImage": false
       },
@@ -9883,7 +9883,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Somme_vote.webp",
+          "url": "images/map_images/somme.webp",
           "alt": "The Somme",
           "needsManualImage": false
         }
@@ -10015,7 +10015,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Tomb_vote.webp",
+        "url": "images/map_images/tomb.webp",
         "alt": "Tomb",
         "needsManualImage": false
       },
@@ -10053,7 +10053,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Tomb_vote.webp",
+          "url": "images/map_images/tomb.webp",
           "alt": "Tomb",
           "needsManualImage": false
         }
@@ -10338,7 +10338,7 @@
         "mode_release"
       ],
       "image": {
-        "url": "images/map_images/CityPoint_vote.webp",
+        "url": "images/map_images/city-point.webp",
         "alt": "City Point",
         "needsManualImage": false
       },
@@ -10391,7 +10391,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/CityPoint_vote.webp",
+          "url": "images/map_images/city-point.webp",
           "alt": "City Point",
           "needsManualImage": false
         }
@@ -11209,7 +11209,7 @@
         "mode_release"
       ],
       "image": {
-        "url": "images/map_images/BattleRoyale_vote.webp",
+        "url": "images/map_images/battle-royale.webp",
         "alt": "Battle Royale",
         "needsManualImage": false
       },
@@ -11253,7 +11253,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/BattleRoyale_vote.webp",
+          "url": "images/map_images/battle-royale.webp",
           "alt": "Battle Royale",
           "needsManualImage": false
         }
@@ -11369,7 +11369,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Remagen_vote.webp",
+        "url": "images/map_images/remagen.webp",
         "alt": "Remagen",
         "needsManualImage": false
       },
@@ -11425,7 +11425,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Remagen_vote.webp",
+          "url": "images/map_images/remagen.webp",
           "alt": "Remagen",
           "needsManualImage": false
         }
@@ -11606,7 +11606,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Southwest_vote.webp",
+        "url": "images/map_images/southwest.webp",
         "alt": "Southwest",
         "needsManualImage": false
       },
@@ -11680,7 +11680,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Southwest_vote.webp",
+          "url": "images/map_images/southwest.webp",
           "alt": "Southwest",
           "needsManualImage": false
         }
@@ -12318,7 +12318,7 @@
         "weapon_release"
       ],
       "image": {
-        "url": "images/map_images/Escape_vote.webp",
+        "url": "images/map_images/escape.webp",
         "alt": "Escape",
         "needsManualImage": false
       },
@@ -12399,7 +12399,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Escape_vote.webp",
+          "url": "images/map_images/escape.webp",
           "alt": "Escape",
           "needsManualImage": false
         }
@@ -12418,7 +12418,7 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Temple_vote.webp",
+        "url": "images/map_images/temple.webp",
         "alt": "Temple",
         "needsManualImage": false
       },
@@ -12459,7 +12459,7 @@
       ],
       "images": [
         {
-          "url": "images/map_images/Temple_vote.webp",
+          "url": "images/map_images/temple.webp",
           "alt": "Temple",
           "needsManualImage": false
         }
@@ -12797,13 +12797,13 @@
         "map_release"
       ],
       "image": {
-        "url": "images/map_images/Office_vote.webp",
+        "url": "images/map_images/office.webp",
         "alt": "Office",
         "needsManualImage": false
       },
       "images": [
         {
-          "url": "images/map_images/Office_vote.webp",
+          "url": "images/map_images/office.webp",
           "alt": "Office",
           "needsManualImage": false
         }
@@ -12843,16 +12843,16 @@
       "maps": [
         {
           "name": "Desert",
-          "image": "images/map_images/Desert_vote.webp"
+          "image": "images/map_images/desert.webp"
         },
         {
           "name": "Northwest",
           "label": "Northwest (legacy)",
-          "image": "images/map_images/Northwest_vote.webp"
+          "image": "images/map_images/northwest.webp"
         },
         {
           "name": "Pacific",
-          "image": "images/map_images/Pacific_vote.webp"
+          "image": "images/map_images/pacific.webp"
         }
       ],
       "note": "Community/dev correction: Desert, Northwest (legacy), and Pacific came with the base game, so they are not counted as post-launch map releases."
@@ -12877,7 +12877,7 @@
     "undatedKnownMapReleases": [
       {
         "name": "Flooded",
-        "image": "images/map_images/Flooded_vote.webp",
+        "image": "images/map_images/flooded.webp",
         "note": "Released after the pre-game/base period but not mentioned in imported updates; no confirmed public release date provided yet."
       }
     ],
