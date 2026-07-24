@@ -104,9 +104,15 @@ input {
     border-bottom: 4px solid var(--border-color);
     background:
         linear-gradient(90deg, rgba(32, 28, 24, 0.86), rgba(32, 28, 24, 0.53)),
-        url("images/project_images/background.jpg") center bottom / cover no-repeat;
+        url("images/background.jpg") center bottom / cover no-repeat;
     color: #fff0cf;
     padding: 58px 20px 34px;
+}
+
+.timeline-hero {
+    background:
+        linear-gradient(90deg, rgba(32, 28, 24, 0.88), rgba(32, 28, 24, 0.48)),
+        url("images/background2.png") center center / cover no-repeat;
 }
 
 .header::after {
@@ -403,20 +409,16 @@ input {
     box-shadow: var(--panel-shadow);
 }
 
-.creator-image-placeholder {
+.creator-image {
+    width: 100%;
     min-height: 230px;
-    display: grid;
-    place-items: center;
-    background:
-        repeating-linear-gradient(45deg, rgba(181, 70, 46, 0.12) 0 8px, transparent 8px 16px),
-        var(--bg-tertiary);
-    border: 2px dashed var(--border-color);
-    color: var(--text-secondary);
-    font-size: 12px;
-    font-weight: 900;
-    letter-spacing: 0.12em;
-    text-align: center;
-    text-transform: uppercase;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    background: var(--bg-tertiary);
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 4px rgba(0, 0, 0, 0.16);
 }
 
 .creator-copy {
@@ -1624,8 +1626,9 @@ input {
         min-height: 220px;
     }
 
-    .creator-image-placeholder {
+    .creator-image {
         min-height: 190px;
+        max-height: 320px;
     }
 
     .category-projects {
