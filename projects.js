@@ -83,7 +83,7 @@ const projects = [
         category: "WB Discord Bots",
         shortDescription: "The official [APG] squad Discord bot with reaction roles, purge commands, and APG-related content.",
         details: "A squad-specific Discord bot built for the [APG] War Brokers community. Includes reaction roles, a purge command, APG-related images, and general server management features. Not a general-purpose WB stats bot — primarily useful within the [APG] Discord. Listed on Top.gg but appears inactive.",
-        image: "images/project_images/apg_bot.jpg",
+        image: "images/project_images/apgbot.jpg",
         link: "https://top.gg/bot/933820741915385906",
         status: "Removed"
     },

@@ -949,6 +949,10 @@ input {
     align-items: start;
 }
 
+.timeline-entry-details.media-gallery {
+    grid-template-columns: minmax(0, 1fr);
+}
+
 .timeline-entry-details.no-media {
     grid-template-columns: minmax(0, 1fr);
 }
@@ -958,6 +962,10 @@ input {
     gap: 8px;
     align-self: start;
     margin-top: 14px;
+}
+
+.timeline-entry-details.media-gallery .timeline-entry-media-grid {
+    grid-template-columns: repeat(auto-fit, minmax(118px, 1fr));
 }
 
 .timeline-entry-media {
@@ -980,6 +988,15 @@ input {
     image-rendering: auto;
     filter: contrast(1.04) saturate(1.04);
     transform: translateZ(0);
+}
+
+.timeline-entry-media.is-weapon-image img {
+    object-fit: contain;
+    padding: 10px;
+}
+
+.timeline-entry-details.media-gallery .timeline-entry-media img {
+    height: 108px;
 }
 
 .timeline-entry-body {

@@ -49,7 +49,7 @@
 
     async function loadTimeline() {
         try {
-            const response = await fetch('data/timeline.json');
+            const response = await fetch('data/timeline.json?v=20260724-3');
             if (!response.ok) {
                 throw new Error(`Timeline data request failed: ${response.status}`);
             }
@@ -72,10 +72,22 @@
             .map(entry => ({
                 ...entry,
                 sortTime: Date.parse(entry.releaseDate || '') || 0,
+                versionSort: getVersionSortValue(entry),
                 year: (entry.releaseDate || 'Unknown').slice(0, 4),
                 monthKey: (entry.releaseDate || 'Unknown').slice(0, 7)
             }))
-            .sort((a, b) => b.sortTime - a.sortTime || a.title.localeCompare(b.title));
+            .sort((a, b) => {
+                if (b.sortTime !== a.sortTime) {
+                    return b.sortTime - a.sortTime;
+                }
+                if (a.versionSort !== b.versionSort) {
+                    return b.versionSort - a.versionSort;
+                }
+                if (a.id !== b.id) {
+                    return a.id.localeCompare(b.id);
+                }
+                return a.title.localeCompare(b.title);
+            });
     }
 
     function renderTimeline() {
@@ -251,7 +263,8 @@
     function renderEntry(entry) {
         const showImage = shouldShowImage(entry);
         const images = getEntryImages(entry);
-        const detailClass = showImage ? 'has-media' : 'no-media';
+        const galleryClass = images.length > 3 ? 'media-gallery' : 'media-standard';
+        const detailClass = showImage ? `has-media ${galleryClass}` : 'no-media';
         const eventBadge = entry.type !== 'event' && hasTag(entry, 'event')
             ? '<span class="timeline-badge event-badge">Event</span>'
             : '';
@@ -273,7 +286,7 @@
                     ${showImage ? `
                         <div class="timeline-entry-media-grid">
                             ${images.map(image => `
-                                <figure class="timeline-entry-media">
+                                <figure class="timeline-entry-media ${isWeaponImage(image) ? 'is-weapon-image' : ''}">
                                     <img src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt || entry.title)}" loading="lazy">
                                 </figure>
                             `).join('')}
@@ -358,6 +371,20 @@
         }
 
         return [];
+    }
+
+    function isWeaponImage(image) {
+        return Boolean(image && image.url && image.url.includes('/weapon_images/'));
+    }
+
+    function getVersionSortValue(entry) {
+        const match = `${entry.id || ''} ${entry.title || ''}`.match(/\bv(\d+)([a-z])?\b/i);
+        if (!match) {
+            return Number.MAX_SAFE_INTEGER;
+        }
+
+        const patchOffset = match[2] ? (match[2].toLowerCase().charCodeAt(0) - 96) / 100 : 0;
+        return Number(match[1]) + patchOffset;
     }
 
     function hasTag(entry, tag) {

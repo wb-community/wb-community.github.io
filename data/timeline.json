@@ -471,9 +471,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v537",
-        "needsManualImage": true
+        "url": "images/weapon_images/mp7.png",
+        "alt": "MP7",
+        "needsManualImage": false
       },
       "content": [
         "Halloween event starts!",
@@ -511,6 +511,13 @@
           "name": "MP7",
           "date": "2025-10-20",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/mp7.png",
+          "alt": "MP7",
+          "needsManualImage": false
         }
       ]
     },
@@ -804,8 +811,8 @@
         "weapon_release"
       ],
       "image": {
-        "url": "images/map_images/gold-mine.webp",
-        "alt": "Gold Mine update",
+        "url": "images/weapon_images/marksman-rifle.png",
+        "alt": "Marksman Rifle / M110",
         "needsManualImage": false
       },
       "content": [
@@ -878,6 +885,31 @@
         {
           "url": "images/map_images/gold-mine.webp",
           "alt": "Gold Mine update",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/marksman-rifle.png",
+          "alt": "Marksman Rifle / M110",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/mutant.png",
+          "alt": "Mutant",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/kbar.png",
+          "alt": "KBAR",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/mace.png",
+          "alt": "Mace",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/butterfly.png",
+          "alt": "Butterfly",
           "needsManualImage": false
         }
       ]
@@ -1200,8 +1232,8 @@
         "weapon_release"
       ],
       "image": {
-        "url": "images/map_images/gold-mine.webp",
-        "alt": "Gold Mine",
+        "url": "images/weapon_images/g3a3.png",
+        "alt": "G3A3",
         "needsManualImage": false
       },
       "content": [
@@ -1250,6 +1282,11 @@
         {
           "url": "images/map_images/gold-mine.webp",
           "alt": "Gold Mine",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/g3a3.png",
+          "alt": "G3A3",
           "needsManualImage": false
         }
       ]
@@ -1566,9 +1603,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v498",
-        "needsManualImage": true
+        "url": "images/weapon_images/healing-pistol.png",
+        "alt": "Healing Pistol",
+        "needsManualImage": false
       },
       "content": [
         "Xmas Event Starts!!!",
@@ -1623,6 +1660,18 @@
           "name": "AK SMG",
           "date": "2023-12-19",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/healing-pistol.png",
+          "alt": "Healing Pistol",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/ak-smg.png",
+          "alt": "AK SMG",
+          "needsManualImage": false
         }
       ]
     },
@@ -1686,9 +1735,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v495",
-        "needsManualImage": true
+        "url": "images/weapon_images/chainsaw.png",
+        "alt": "Chainsaw",
+        "needsManualImage": false
       },
       "content": [
         "Halloween Event is HERE!!! Live NOW!",
@@ -1728,6 +1777,13 @@
           "name": "Chainsaw",
           "date": "2023-10-19",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/chainsaw.png",
+          "alt": "Chainsaw",
+          "needsManualImage": false
         }
       ]
     },
@@ -2215,9 +2271,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v484",
-        "needsManualImage": true
+        "url": "images/weapon_images/implosion-grenade.png",
+        "alt": "Implosion Grenade",
+        "needsManualImage": false
       },
       "content": [
         "Happy 2023!!!",
@@ -2256,6 +2312,13 @@
           "date": "2023-02-01",
           "dateType": "public_update"
         }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/implosion-grenade.png",
+          "alt": "Implosion Grenade",
+          "needsManualImage": false
+        }
       ]
     },
     {
@@ -2272,9 +2335,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v483",
-        "needsManualImage": true
+        "url": "images/weapon_images/desert.png",
+        "alt": "Desert sidearm",
+        "needsManualImage": false
       },
       "content": [
         "New sidearm, Desert!",
@@ -2310,6 +2373,13 @@
           "name": "Desert sidearm",
           "date": "2022-12-21",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/desert.png",
+          "alt": "Desert sidearm",
+          "needsManualImage": false
         }
       ]
     },
@@ -2485,9 +2555,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v477",
-        "needsManualImage": true
+        "url": "images/weapon_images/auto-sniper-rifle.png",
+        "alt": "Semi-auto Sniper / Auto Sniper",
+        "needsManualImage": false
       },
       "content": [
         "Here is the new MOTD:",
@@ -2526,6 +2596,13 @@
           "name": "Semi-auto Sniper / Auto Sniper",
           "date": "2022-09-09",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/auto-sniper-rifle.png",
+          "alt": "Semi-auto Sniper / Auto Sniper",
+          "needsManualImage": false
         }
       ]
     },
@@ -2793,9 +2870,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v470",
-        "needsManualImage": true
+        "url": "images/weapon_images/auto-pistol.png",
+        "alt": "Auto Pistol",
+        "needsManualImage": false
       },
       "content": [
         "(live afternoon PST)",
@@ -2828,6 +2905,13 @@
           "name": "Auto Pistol",
           "date": "2022-05-25",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/auto-pistol.png",
+          "alt": "Auto Pistol",
+          "needsManualImage": false
         }
       ]
     },
@@ -3011,9 +3095,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v465",
-        "needsManualImage": true
+        "url": "images/weapon_images/concussion-grenade.png",
+        "alt": "Concussion Grenade",
+        "needsManualImage": false
       },
       "content": [
         "(live later today)",
@@ -3045,6 +3129,13 @@
           "name": "Concussion Grenade",
           "date": "2022-04-29",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/concussion-grenade.png",
+          "alt": "Concussion Grenade",
+          "needsManualImage": false
         }
       ]
     },
@@ -3102,9 +3193,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v463",
-        "needsManualImage": true
+        "url": "images/weapon_images/rubber-chicken.png",
+        "alt": "Rubber Chicken",
+        "needsManualImage": false
       },
       "content": [
         "New melee weapon for April 1st! Rubber Chicken!",
@@ -3137,6 +3228,13 @@
           "date": "2022-04-01",
           "dateType": "public_update"
         }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/rubber-chicken.png",
+          "alt": "Rubber Chicken",
+          "needsManualImage": false
+        }
       ]
     },
     {
@@ -3152,9 +3250,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v462",
-        "needsManualImage": true
+        "url": "images/weapon_images/lmg.png",
+        "alt": "LMG",
+        "needsManualImage": false
       },
       "content": [
         "New weapon, LMG!",
@@ -3194,6 +3292,13 @@
           "name": "LMG",
           "date": "2022-03-25",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/lmg.png",
+          "alt": "LMG",
+          "needsManualImage": false
         }
       ]
     },
@@ -3402,9 +3507,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v458",
-        "needsManualImage": true
+        "url": "images/weapon_images/laser-trip-mine.png",
+        "alt": "Laser Trip Mine",
+        "needsManualImage": false
       },
       "content": [
         "New weapon, Laser Trip Mine, select in Grenade slot.",
@@ -3438,6 +3543,13 @@
           "name": "Laser Trip Mine",
           "date": "2022-02-18",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/laser-trip-mine.png",
+          "alt": "Laser Trip Mine",
+          "needsManualImage": false
         }
       ]
     },
@@ -3721,9 +3833,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v450",
-        "needsManualImage": true
+        "url": "images/weapon_images/vek-smg.png",
+        "alt": "VEK SMG",
+        "needsManualImage": false
       },
       "content": [
         "New weapon, VEK SMG, available in all game modes.",
@@ -3753,6 +3865,13 @@
           "name": "VEK SMG",
           "date": "2022-01-21",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/vek-smg.png",
+          "alt": "VEK SMG",
+          "needsManualImage": false
         }
       ]
     },
@@ -9073,9 +9192,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v278",
-        "needsManualImage": true
+        "url": "images/weapon_images/tactical-shotgun.png",
+        "alt": "Tactical Shotgun",
+        "needsManualImage": false
       },
       "content": [
         "New Weapon: Tactical Shotgun.",
@@ -9117,6 +9236,13 @@
           "name": "Tactical Shotgun",
           "date": "2019-06-28",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/tactical-shotgun.png",
+          "alt": "Tactical Shotgun",
+          "needsManualImage": false
         }
       ]
     },
@@ -9597,9 +9723,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v260",
-        "needsManualImage": true
+        "url": "images/weapon_images/scar.png",
+        "alt": "SCAR",
+        "needsManualImage": false
       },
       "content": [
         "(Going live today 2019-03-26 at ~4:30pm CDT)",
@@ -9626,6 +9752,13 @@
           "name": "SCAR",
           "date": "2019-03-26",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/scar.png",
+          "alt": "SCAR",
+          "needsManualImage": false
         }
       ]
     },
@@ -9796,9 +9929,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v249",
-        "needsManualImage": true
+        "url": "images/weapon_images/crossbow.png",
+        "alt": "Crossbow",
+        "needsManualImage": false
       },
       "content": [
         "(Going live at 4pm CST 2019-02-08)",
@@ -9834,6 +9967,13 @@
           "name": "Crossbow",
           "date": "2019-02-08",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/crossbow.png",
+          "alt": "Crossbow",
+          "needsManualImage": false
         }
       ]
     },
@@ -10162,9 +10302,9 @@
         "weapon_release"
       ],
       "image": {
-        "url": null,
-        "alt": "War Brokers v234",
-        "needsManualImage": true
+        "url": "images/weapon_images/vss.png",
+        "alt": "VSS",
+        "needsManualImage": false
       },
       "content": [
         "Holiday Crates are available starting at ~5PM CST on 12/7/18 and until 6PM CST on 12/31/18.",
@@ -10223,6 +10363,18 @@
           "name": ".50 Cal Sniper",
           "date": "2018-12-07",
           "dateType": "public_update"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/vss.png",
+          "alt": "VSS",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/50-cal-sniper-rifle.png",
+          "alt": ".50 Cal Sniper",
+          "needsManualImage": false
         }
       ]
     },
@@ -11953,11 +12105,12 @@
       "priority": "high",
       "tags": [
         "update",
-        "platform_release"
+        "platform_release",
+        "weapon_release"
       ],
       "image": {
-        "url": "https://images-ext-1.discordapp.net/external/pDVSYtNERLGap4mPvv5nqIrQkyO8pzCM4gtcNTqyTKg/%3Ft%3D1523916137/https/steamcdn-a.akamaihd.net/steam/apps/750470/header.jpg",
-        "alt": "War Brokers v143",
+        "url": "images/weapon_images/smoke-grenade.png",
+        "alt": "Smoke Grenade",
         "needsManualImage": false
       },
       "content": [
@@ -12032,6 +12185,32 @@
           "name": "Steam version",
           "date": "2018-04-18",
           "dateType": "public_update"
+        },
+        {
+          "kind": "weapon",
+          "name": "Smoke Grenade",
+          "date": "2018-04-18",
+          "dateType": "public_update",
+          "note": "Verified in v143 content: \u201cAdded smoke grenade.\u201d"
+        },
+        {
+          "kind": "weapon",
+          "name": "Grenade Launcher",
+          "date": "2018-04-18",
+          "dateType": "public_update",
+          "note": "Verified in v143 content: \u201cAdded grenade launcher.\u201d"
+        }
+      ],
+      "images": [
+        {
+          "url": "images/weapon_images/smoke-grenade.png",
+          "alt": "Smoke Grenade",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/grenade-launcher.png",
+          "alt": "Grenade Launcher",
+          "needsManualImage": false
         }
       ]
     },
@@ -12318,8 +12497,8 @@
         "weapon_release"
       ],
       "image": {
-        "url": "images/map_images/escape.webp",
-        "alt": "Escape",
+        "url": "images/weapon_images/revolver.png",
+        "alt": "Revolver",
         "needsManualImage": false
       },
       "content": [
@@ -12395,12 +12574,34 @@
           "name": "Minigun",
           "date": "2018-03-05",
           "dateType": "public_update"
+        },
+        {
+          "kind": "weapon",
+          "name": "Homing Missile",
+          "date": "2018-03-05",
+          "dateType": "provisional_earliest_mention",
+          "note": "Earliest current timeline mention found in v128: homing missile lock system. Keep provisional until a cleaner release date is confirmed."
         }
       ],
       "images": [
         {
           "url": "images/map_images/escape.webp",
           "alt": "Escape",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/revolver.png",
+          "alt": "Revolver",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/minigun.png",
+          "alt": "Minigun",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/homing-missile.png",
+          "alt": "Homing Missile",
           "needsManualImage": false
         }
       ]
@@ -12784,45 +12985,220 @@
       ]
     },
     {
-      "id": "manual-map-office-2017-12-22",
+      "id": "manual-base-game",
       "type": "version_update",
-      "title": "Office map release",
-      "description": "Office was released after the base-game map set and before the imported changelog history. This release is tracked from community/dev history rather than official update text.",
-      "releaseDate": "2017-12-22",
+      "title": "Base Game",
+      "description": "War Brokers launched on November 15, 2017 with the legacy starting map set and original core weapon pool: Desert, Northwest, Pacific, Pistol, AR, AK, Hunting Rifle, RPG, Shotgun, Sniper Rifle, SMG, Grenade, Knife, Air Strike, and BGM. Office released after the base game but before v115, so it is included here as pre-numbered-history context without a confirmed exact date.",
+      "releaseDate": "2017-11-15",
       "datePrecision": "day",
       "priority": "high",
       "tags": [
         "update",
         "manual_entry",
-        "map_release"
+        "base_game",
+        "map_release",
+        "weapon_release"
       ],
       "image": {
-        "url": "images/map_images/office.webp",
-        "alt": "Office",
+        "url": "images/map_images/desert.webp",
+        "alt": "Desert",
         "needsManualImage": false
       },
       "images": [
         {
+          "url": "images/map_images/desert.webp",
+          "alt": "Desert",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/map_images/northwest.webp",
+          "alt": "Northwest (legacy)",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/map_images/pacific.webp",
+          "alt": "Pacific",
+          "needsManualImage": false
+        },
+        {
           "url": "images/map_images/office.webp",
           "alt": "Office",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/pistol.png",
+          "alt": "Pistol",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/ar-rifle.png",
+          "alt": "AR Rifle",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/ak-rifle.png",
+          "alt": "AK Rifle",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/hunting-rifle.png",
+          "alt": "Hunting Rifle",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/rpg.png",
+          "alt": "RPG",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/shotgun.png",
+          "alt": "Shotgun",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/sniper-rifle.png",
+          "alt": "Sniper Rifle",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/smg.png",
+          "alt": "SMG",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/grenade.png",
+          "alt": "Grenade",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/knife.png",
+          "alt": "Knife",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/air-strike.png",
+          "alt": "Air Strike",
+          "needsManualImage": false
+        },
+        {
+          "url": "images/weapon_images/bgm.png",
+          "alt": "BGM",
           "needsManualImage": false
         }
       ],
       "content": [
-        "Manual timeline entry added from community/dev map-history notes."
+        "Base launch date: November 15, 2017.",
+        "Base maps: Desert, Northwest (legacy), Pacific.",
+        "Office released after the base game but before v115; the exact release date is not confirmed in this dataset.",
+        "Base weapons: Pistol, AR, AK, Hunting Rifle, RPG, Shotgun, Sniper Rifle, SMG, Grenade, Knife, Air Strike, BGM."
       ],
       "releaseItems": [
         {
           "kind": "map",
+          "name": "Desert",
+          "date": "2017-11-15",
+          "dateType": "base_game"
+        },
+        {
+          "kind": "map",
+          "name": "Northwest",
+          "date": "2017-11-15",
+          "dateType": "base_game",
+          "note": "Northwest (legacy)"
+        },
+        {
+          "kind": "map",
+          "name": "Pacific",
+          "date": "2017-11-15",
+          "dateType": "base_game"
+        },
+        {
+          "kind": "map",
           "name": "Office",
-          "date": "2017-12-22",
-          "dateType": "community_confirmed"
+          "date": "pre-2018-01-18",
+          "dateType": "pre_numbered_history_unconfirmed_date",
+          "note": "Office released after base game launch but before v115; exact date not confirmed."
+        },
+        {
+          "kind": "weapon",
+          "name": "Pistol",
+          "date": "2017-11-15",
+          "dateType": "base_game"
+        },
+        {
+          "kind": "weapon",
+          "name": "AR",
+          "date": "2017-11-15",
+          "dateType": "base_game",
+          "note": "AR Rifle"
+        },
+        {
+          "kind": "weapon",
+          "name": "AK",
+          "date": "2017-11-15",
+          "dateType": "base_game",
+          "note": "AK Rifle"
+        },
+        {
+          "kind": "weapon",
+          "name": "Hunting Rifle",
+          "date": "2017-11-15",
+          "dateType": "base_game"
+        },
+        {
+          "kind": "weapon",
+          "name": "RPG",
+          "date": "2017-11-15",
+          "dateType": "base_game"
+        },
+        {
+          "kind": "weapon",
+          "name": "Shotgun",
+          "date": "2017-11-15",
+          "dateType": "base_game"
+        },
+        {
+          "kind": "weapon",
+          "name": "Sniper Rifle",
+          "date": "2017-11-15",
+          "dateType": "base_game"
+        },
+        {
+          "kind": "weapon",
+          "name": "SMG",
+          "date": "2017-11-15",
+          "dateType": "base_game"
+        },
+        {
+          "kind": "weapon",
+          "name": "Grenade",
+          "date": "2017-11-15",
+          "dateType": "base_game"
+        },
+        {
+          "kind": "weapon",
+          "name": "Knife",
+          "date": "2017-11-15",
+          "dateType": "base_game"
+        },
+        {
+          "kind": "weapon",
+          "name": "Air Strike",
+          "date": "2017-11-15",
+          "dateType": "base_game"
+        },
+        {
+          "kind": "weapon",
+          "name": "BGM",
+          "date": "2017-11-15",
+          "dateType": "base_game"
         }
       ],
       "sourceRefs": [
         {
-          "sourceId": "community_dev_notes",
-          "note": "User-provided/community-dev corrected map history."
+          "kind": "manual_note",
+          "source": "community_dev_notes",
+          "note": "User supplied corrected base-game launch date, base weapon list, and Office placement before v115. Exact Office release date is unconfirmed."
         }
       ]
     }
@@ -12834,11 +13210,56 @@
     "labelingNote": "Timeline tags were manually curated by entry. Broad keyword-style map/weapon tags were removed; map_release and weapon_release now mean actual releases.",
     "baseGame": {
       "weapons": [
-        "Pistol",
-        "AR",
-        "AK",
-        "Rifle / Hunting Rifle",
-        "RPG"
+        {
+          "name": "Pistol",
+          "image": "images/weapon_images/pistol.png"
+        },
+        {
+          "name": "AR",
+          "label": "AR Rifle",
+          "image": "images/weapon_images/ar-rifle.png"
+        },
+        {
+          "name": "AK",
+          "label": "AK Rifle",
+          "image": "images/weapon_images/ak-rifle.png"
+        },
+        {
+          "name": "Hunting Rifle",
+          "image": "images/weapon_images/hunting-rifle.png"
+        },
+        {
+          "name": "RPG",
+          "image": "images/weapon_images/rpg.png"
+        },
+        {
+          "name": "Shotgun",
+          "image": "images/weapon_images/shotgun.png"
+        },
+        {
+          "name": "Sniper Rifle",
+          "image": "images/weapon_images/sniper-rifle.png"
+        },
+        {
+          "name": "SMG",
+          "image": "images/weapon_images/smg.png"
+        },
+        {
+          "name": "Grenade",
+          "image": "images/weapon_images/grenade.png"
+        },
+        {
+          "name": "Knife",
+          "image": "images/weapon_images/knife.png"
+        },
+        {
+          "name": "Air Strike",
+          "image": "images/weapon_images/air-strike.png"
+        },
+        {
+          "name": "BGM",
+          "image": "images/weapon_images/bgm.png"
+        }
       ],
       "maps": [
         {
@@ -12855,7 +13276,7 @@
           "image": "images/map_images/pacific.webp"
         }
       ],
-      "note": "Community/dev correction: Desert, Northwest (legacy), and Pacific came with the base game, so they are not counted as post-launch map releases."
+      "note": "Community/dev correction: War Brokers launched on November 15, 2017 with the corrected original weapon set and base maps. Office released after the base game but before v115, so it is grouped into the Base Game entry as pre-numbered-history context without a confirmed exact date."
     },
     "releaseDateNote": "releaseItems dates are public update-log dates where available. Internal addition/menu order can differ and still needs developer confirmation for some items.",
     "needsReleaseConfirmation": [
