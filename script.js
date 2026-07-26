@@ -4,23 +4,44 @@ document.addEventListener('DOMContentLoaded', function() {
     const filterInfo = document.getElementById('filterInfo');
     const themeToggle = document.getElementById('themeToggle');
 
-    // Theme logic
-    const currentTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    
-    if (currentTheme === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-    }
+    const themePreference = window.matchMedia('(prefers-color-scheme: dark)');
+    const savedTheme = localStorage.getItem('theme');
 
-    themeToggle.addEventListener('click', () => {
-        let theme = document.documentElement.getAttribute('data-theme');
-        if (theme === 'dark') {
-            document.documentElement.removeAttribute('data-theme');
-            localStorage.setItem('theme', 'light');
-        } else {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            localStorage.setItem('theme', 'dark');
+    applyTheme(savedTheme || getBrowserTheme());
+
+    themePreference.addEventListener('change', () => {
+        if (!localStorage.getItem('theme')) {
+            applyTheme(getBrowserTheme());
         }
     });
+
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            const nextTheme = getActiveTheme() === 'dark' ? 'light' : 'dark';
+            applyTheme(nextTheme);
+            localStorage.setItem('theme', nextTheme);
+        });
+    }
+
+    function getBrowserTheme() {
+        return themePreference.matches ? 'dark' : 'light';
+    }
+
+    function getActiveTheme() {
+        return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+    }
+
+    function applyTheme(theme) {
+        if (theme === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+            document.documentElement.removeAttribute('data-theme');
+        }
+    }
+
+    if (!searchInput || !projectsGrid || !filterInfo || typeof projects === 'undefined') {
+        return;
+    }
 
     function renderProjects(filteredProjects) {
         projectsGrid.innerHTML = '';

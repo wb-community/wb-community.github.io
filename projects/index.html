@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <title>Projects - WB Community Hub</title>
+    <link rel="icon" type="image/webp" href="images/project_images/warbrokers.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-bg"></div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" type="button">
+        Theme
+    </button>
+
+    <header class="header page-header">
+        <div class="header-content">
+            <img class="hub-mark" src="images/project_images/warbrokers.webp" alt="" aria-hidden="true">
+            <p class="kicker">War Brokers community index</p>
+            <h1 class="title">Community Projects</h1>
+            <p class="subtitle">Browse community-made tools, APIs, stats sites, Discord bots, mods, utilities, and reference sites for War Brokers.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <nav class="page-nav" aria-label="Site sections">
+            <a href="./" class="page-nav-link">Home</a>
+            <a href="projects/" class="page-nav-link active" aria-current="page">Projects</a>
+            <span class="page-nav-link disabled">Community</span>
+            <a href="timeline/" class="page-nav-link">Timeline</a>
+        </nav>
+
+        <div class="search-section">
+            <input
+                type="text"
+                id="searchInput"
+                class="search-bar"
+                placeholder="Search by name or category..."
+                aria-label="Search projects"
+            >
+            <div class="filter-info" id="filterInfo"></div>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+            <!-- Projects will be populated here by JavaScript -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Know of a community project we missed or need to update info? DM <strong>Projelly</strong> on Discord or <a href="https://github.com/wb-community/wb-community.github.io/pulls" target="_blank" rel="noopener noreferrer" class="footer-link">create a Pull Request</a> on GitHub.</p>
+            <p class="footer-meta">WB Community Projects Hub - Keep the War Brokers community thriving</p>
+        </div>
+    </footer>
+
+    <script src="projects.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

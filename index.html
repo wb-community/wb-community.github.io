@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WB Community Projects - War Brokers Hub</title>
-    <link rel="icon" type="image/webp" href="images/warbrokers.webp">
+    <title>WB Community Hub</title>
+    <link rel="icon" type="image/webp" href="images/project_images/warbrokers.webp">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,40 +13,69 @@
         Theme
     </button>
     
-    <header class="header">
+    <header class="header home-hero">
         <div class="header-content">
-            <img class="hub-mark" src="images/warbrokers.webp" alt="" aria-hidden="true">
-            <p class="kicker">War Brokers community index</p>
-            <h1 class="title">WB Community Projects</h1>
-            <p class="subtitle">A central directory of community-made tools, APIs, stats sites, and utilities for War Brokers</p>
+            <img class="hub-mark" src="images/project_images/warbrokers.webp" alt="" aria-hidden="true">
+            <p class="kicker">War Brokers community hub</p>
+            <h1 class="title">WB Community Hub</h1>
+            <p class="subtitle">A community-built front desk for War Brokers resources, tools, history, and player-made projects.</p>
         </div>
     </header>
 
-    <main class="container">
-        <div class="search-section">
-            <input 
-                type="text" 
-                id="searchInput" 
-                class="search-bar" 
-                placeholder="Search by name or category..."
-                aria-label="Search projects"
-            >
-            <div class="filter-info" id="filterInfo"></div>
-        </div>
+    <main class="container landing-container">
+        <section class="landing-intro" aria-labelledby="intro-title">
+            <div>
+                <p class="section-kicker">Start here</p>
+                <h2 id="intro-title">One place for the War Brokers community map.</h2>
+            </div>
+            <p>Use the hub to jump between community projects, active Discord spaces, tournament links, and a timeline of game history including weapons, maps, and update releases.</p>
+        </section>
 
-        <div class="projects-grid" id="projectsGrid">
-            <!-- Projects will be populated here by JavaScript -->
-        </div>
+        <section class="section-grid" id="sections" aria-label="Hub sections">
+            <a class="section-card featured-section" href="projects/">
+                <span class="section-status">Open now</span>
+                <h2>Projects</h2>
+                <p>Browse the directory of community-made tools, sites, APIs, bots, mods, and utilities.</p>
+                <span class="section-link">Enter Projects</span>
+            </a>
+
+            <article class="section-card coming-soon">
+                <span class="section-status">Planned</span>
+                <h2>Community</h2>
+                <p>A future directory for community server invites, tournament Discords, squad spaces, creators, and contributor links.</p>
+                <span class="section-link muted-link">Coming Later</span>
+            </article>
+
+            <a class="section-card" href="timeline/">
+                <span class="section-status">Open now</span>
+                <h2>Timeline</h2>
+                <p>Explore update releases, weapon additions, map additions, events, community projects, and major War Brokers milestones.</p>
+                <span class="section-link">Enter Timeline</span>
+            </a>
+        </section>
+
+        <section class="creator-panel" aria-labelledby="creator-title">
+            <img class="creator-image" src="images/creator.png" alt="Creator profile">
+            <div class="creator-copy">
+                <p class="section-kicker">Site creator</p>
+                <h2 id="creator-title">Hello, chat</h2>
+                <p>You all know me as projelly (unless you live under a rock, which I no doubt believe a large percentage of WB players do), or just Jelly. As the ending for my love and hate relationship with WB comes closer, I wanted to give back to this game and community. It got me through a lot of troubling and depressing times. The people and this game have given me so much and I'm so very grateful for it. It's safe to say a large part of me grew up through this community. This website is a thank you, a thank you to everyone who supported me, who laughed with me, who fought with me, and to everyone who gave me so much joy. I hope you enjoy it, continue to contribute, make it better.</p>
+            </div>
+        </section>
+
+        <section class="notice-strip" aria-label="Contribute">
+            <strong>Help keep the hub useful.</strong>
+            <span>This site is meant to grow alongside the community, so corrections, invite links, missing resources, historical notes, and ideas for future hub sections are all helpful. If something is outdated, incomplete, or worth preserving, send it through Discord or GitHub so the index can stay accurate over time.</span>
+        </section>
     </main>
 
     <footer class="footer">
         <div class="footer-content">
-            <p>Know of a community project we missed or need to update info? DM <strong>Projelly</strong> on Discord or <a href="https://github.com/wb-community/wb-community.github.io/pulls" target="_blank" rel="noopener noreferrer" class="footer-link">create a Pull Request</a> on GitHub.</p>
-            <p class="footer-meta">WB Community Projects Hub — Keep the War Brokers community thriving</p>
+            <p>WB Community Hub is a fan-maintained index for War Brokers resources, community spaces, and game history. The goal is to make scattered community knowledge easier to find, whether someone is looking for tools, Discord servers, tournament spaces, update history, or long-running player-made archives. Contributions, corrections, and suggestions are welcome through Discord or <a href="https://github.com/wb-community/wb-community.github.io/pulls" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>.</p>
+            <p class="footer-meta">WB Community Hub - Built for the War Brokers community</p>
         </div>
     </footer>
 
-    <script src="projects.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -40,14 +40,14 @@ Format:
     category: 'WB Stats Sites', // Must be one of the exact categories listed above
     shortDescription: 'A brief 1-2 sentence summary.',
     details: 'A longer, more detailed explanation of what the project does, tech stack used, etc.',
-    image: 'images/your-project.jpg', // Local path OR external URL
+    image: 'images/project_images/your-project.jpg', // Local path OR external URL
     link: 'https://link.to.your.project.com/', // Project URL. Be sure this is valid.
     status: 'Active' // Must be Active, Maintenance, or Removed
 }
 ```
 
 ### 3. Adding an Image (Optional)
-- **Local Images**: Put a screenshot in the `images` folder (size it reasonably around 1280x720) and reference it as `'images/filename.jpg'`. The UI will scale it cleanly.
+- **Local Images**: Put a screenshot in the `images/project_images` folder (size it reasonably around 1280x720) and reference it as `'images/project_images/filename.jpg'`. The UI will scale it cleanly.
 - **GitHub README Cards**: If you don't have an image, you can use a GitHub auto-generated repo card. E.g.: `'https://github-readme-stats.vercel.app/api/pin/?username=YourUser&repo=YourRepo&theme=dark&hide_border=true'`.
 - **No Image**: You can also just set `image: null` and the site will display a clean placeholder box.
 
