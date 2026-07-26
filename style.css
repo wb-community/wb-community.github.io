@@ -995,6 +995,11 @@ input {
     padding: 10px;
 }
 
+.timeline-entry-media.is-contained-image img {
+    object-fit: contain;
+    padding: 8px;
+}
+
 .timeline-entry-details.media-gallery .timeline-entry-media img {
     height: 108px;
 }

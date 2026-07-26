@@ -622,9 +622,10 @@
         "tournament"
       ],
       "image": {
-        "url": "https://cdn.discordapp.com/attachments/1216689735167381564/1378808509197451326/SPEED_1.png?ex=6a4fedfd&is=6a4e9c7d&hm=271b0aa90d6233d4a6507f078b1cfa93942819eaaeac5f81d37cceb9afbabbb0&",
+        "url": "images/community_events/war-brokers-2025-summer-speed-event.webp",
         "alt": "War Brokers 2025 Summer Speed Event",
-        "needsManualImage": false
+        "needsManualImage": false,
+        "fit": "contain"
       },
       "content": [
         "Knockout-style community tournament hosted through the War Broker Community Events server.",
@@ -671,7 +672,15 @@
           "url": "https://discord.com/channels/324984733102768128/1216689735167381564/1390738136765825124"
         }
       ],
-      "contentSummary": true
+      "contentSummary": true,
+      "images": [
+        {
+          "url": "images/community_events/war-brokers-2025-summer-speed-event.webp",
+          "alt": "War Brokers 2025 Summer Speed Event",
+          "needsManualImage": false,
+          "fit": "contain"
+        }
+      ]
     },
     {
       "id": "update-v518",
@@ -927,7 +936,7 @@
         "tournament"
       ],
       "image": {
-        "url": "https://cdn.discordapp.com/attachments/1216689735167381564/1305124213195149322/WBWC_trial_1.png?ex=6a502764&is=6a4ed5e4&hm=725840d005adc4a1c8a55e5874e7a13f55ef8b93e4e78379cca76809185452bf&",
+        "url": "images/community_events/war-brokers-world-cup-2025.webp",
         "alt": "War Brokers World Cup 2025",
         "needsManualImage": false
       },
@@ -1047,7 +1056,14 @@
           "url": "https://discord.com/channels/324984733102768128/1216689735167381564/1333559382989996073"
         }
       ],
-      "contentSummary": true
+      "contentSummary": true,
+      "images": [
+        {
+          "url": "images/community_events/war-brokers-world-cup-2025.webp",
+          "alt": "War Brokers World Cup 2025",
+          "needsManualImage": false
+        }
+      ]
     },
     {
       "id": "update-v507",
@@ -1304,7 +1320,7 @@
         "tournament"
       ],
       "image": {
-        "url": "https://images-ext-1.discordapp.net/external/1u8iv6cPEA3aygf92pZ3-vT5D-YExnz--LItYmUZj1g/https/i.ytimg.com/vi/JVxBuGl0C3A/maxresdefault.jpg",
+        "url": "images/community_events/war-brokers-news-world-series-2024.webp",
         "alt": "2024 War Brokers News World Series",
         "needsManualImage": false
       },
@@ -1408,7 +1424,14 @@
           "url": "https://discord.com/channels/324984733102768128/1216689735167381564/1262079521046401024"
         }
       ],
-      "contentSummary": true
+      "contentSummary": true,
+      "images": [
+        {
+          "url": "images/community_events/war-brokers-news-world-series-2024.webp",
+          "alt": "2024 War Brokers News World Series",
+          "needsManualImage": false
+        }
+      ]
     },
     {
       "id": "update-v501",

@@ -49,7 +49,7 @@
 
     async function loadTimeline() {
         try {
-            const response = await fetch('data/timeline.json?v=20260724-3');
+            const response = await fetch('data/timeline.json?v=20260726-3');
             if (!response.ok) {
                 throw new Error(`Timeline data request failed: ${response.status}`);
             }
@@ -286,7 +286,7 @@
                     ${showImage ? `
                         <div class="timeline-entry-media-grid">
                             ${images.map(image => `
-                                <figure class="timeline-entry-media ${isWeaponImage(image) ? 'is-weapon-image' : ''}">
+                                <figure class="timeline-entry-media ${isWeaponImage(image) ? 'is-weapon-image' : ''} ${image.fit === 'contain' ? 'is-contained-image' : ''}">
                                     <img src="${escapeHtml(image.url)}" alt="${escapeHtml(image.alt || entry.title)}" loading="lazy">
                                 </figure>
                             `).join('')}
