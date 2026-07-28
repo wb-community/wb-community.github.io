@@ -189,7 +189,12 @@ document.addEventListener('DOMContentLoaded', function() {
             urlHost = project.link;
         }
         
-        const linkHtml = project.link ? `<a href="${project.link}" target="_blank" rel="noopener noreferrer" class="project-link" title="${project.link}">${escapeHtml(urlHost)}</a>` : '';
+        const linkHtml = project.link ? `
+            <a href="${project.link}" target="_blank" rel="noopener noreferrer" class="project-link" title="${project.link}">
+                <span class="project-link-label">Open site</span>
+                <span class="project-link-host">${escapeHtml(urlHost)}</span>
+            </a>
+        ` : '';
         
         card.innerHTML = `
             ${imageElement}
@@ -206,7 +211,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>${escapeHtml(project.details)}</p>
             </div>
             <div class="project-footer">
-                <button class="toggle-details" data-project-id="${project.id}">Details</button>
+                <button class="toggle-details" data-project-id="${project.id}" aria-expanded="false">
+                    <span class="toggle-details-label">Show details</span>
+                    <span class="toggle-details-mark" aria-hidden="true">+</span>
+                </button>
                 ${linkHtml}
             </div>
         `;
@@ -216,7 +224,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         toggleBtn.addEventListener('click', function() {
             detailsDiv.classList.toggle('visible');
-            toggleBtn.textContent = detailsDiv.classList.contains('visible') ? 'Hide' : 'Details';
+            const isVisible = detailsDiv.classList.contains('visible');
+            toggleBtn.setAttribute('aria-expanded', String(isVisible));
+            toggleBtn.querySelector('.toggle-details-label').textContent = isVisible ? 'Hide details' : 'Show details';
+            toggleBtn.querySelector('.toggle-details-mark').textContent = isVisible ? '-' : '+';
         });
 
         return card;

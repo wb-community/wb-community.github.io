@@ -167,6 +167,7 @@
                 <span>${formatDate(entry.releaseDate)}</span>
                 <strong>${escapeHtml(entry.title)}</strong>
                 <small>${labelForType(entry)}</small>
+                <span class="timeline-highlight-action">Jump to entry</span>
             </button>
         `).join('');
 
@@ -270,7 +271,7 @@
             : '';
         return `
             <article class="timeline-entry priority-${escapeHtml(entry.priority)} type-${escapeHtml(entry.type)}" id="entry-${escapeHtml(entry.id)}">
-                <button class="timeline-entry-toggle" type="button" aria-expanded="false">
+                <button class="timeline-entry-toggle" type="button" aria-expanded="false" aria-label="View details for ${escapeHtml(entry.title)}">
                     <span class="timeline-entry-date">${escapeHtml(formatDay(entry.releaseDate))}</span>
                     <span class="timeline-entry-main">
                         <span class="timeline-entry-title">${escapeHtml(entry.title)}</span>
@@ -280,6 +281,10 @@
                         <span class="timeline-badge">${escapeHtml(labelForType(entry))}</span>
                         ${eventBadge}
                         ${entry.priority === 'high' ? '<span class="timeline-badge priority-badge">Priority</span>' : ''}
+                    </span>
+                    <span class="timeline-entry-action" aria-hidden="true">
+                        <span class="timeline-entry-action-text">View details</span>
+                        <span class="timeline-entry-action-mark">+</span>
                     </span>
                 </button>
                 <div class="timeline-entry-details ${detailClass}">
@@ -394,6 +399,14 @@
     function setEntryExpanded(details, toggle, expanded) {
         details.classList.toggle('visible', expanded);
         toggle.setAttribute('aria-expanded', String(expanded));
+        const actionText = toggle.querySelector('.timeline-entry-action-text');
+        const actionMark = toggle.querySelector('.timeline-entry-action-mark');
+        if (actionText) {
+            actionText.textContent = expanded ? 'Hide details' : 'View details';
+        }
+        if (actionMark) {
+            actionMark.textContent = expanded ? '-' : '+';
+        }
     }
 
     function flattenContent(content) {

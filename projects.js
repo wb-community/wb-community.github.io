@@ -40,7 +40,7 @@ const projects = [
         shortDescription: "A feature-rich Discord bot for War Brokers stats including player lookups, squad stats, and daily snapshot tracking.",
         details: "A Discord bot by DeViL!- that extends beyond SquadBot's capabilities. Features include player stat lookups, squad statistics (powered by SquadLink API for squad info), and daily snapshot tracking to show stat progression over time. One of the more comprehensive WB Discord bots available.",
         image: "images/project_images/wbstatsbot.jpg",
-        link: null,
+        link: "https://top.gg/bot/1166970401646190653",
         status: "Active"
     },
     {
@@ -51,7 +51,7 @@ const projects = [
         shortDescription: "A Discord bot by Projelly showing rich squad information with interactive UI and graphs, powered by SquadLink API.",
         details: "A Discord bot created by Projelly that surfaces all squad-related data from the SquadLink API. Features a rich interactive UI and embeds, including interactive graphs. Pairs with the SquadLink Graphs web page (squadlink-dev.github.io/squadlink-graphs) which renders interactive player and squad graphs in the browser using data from ZorkaA's playerdb.csv dataset.",
         image: "images/project_images/squadlinkbot.jpg",
-        link: null,
+        link: "https://top.gg/bot/1393057498851966987",
         status: "Active"
     },
     {
